@@ -1,0 +1,9 @@
+Feature,Leakage_Risk,Reason,Control
+Quote_Value,Low based on current schema,Quoted value can be known when the quotation is issued.,Confirm the value was recorded before the prediction time.
+Discount_Pct,Low based on current schema,Discount may be known when the quotation is issued.,Use only the discount known at scoring time.
+Revision_Count,Medium,A final revision count could include revisions after the prediction time.,Use only revisions recorded up to the prediction cutoff.
+Engagement_Count,Medium,A final engagement count could include interactions after the outcome.,Count engagements only up to the prediction cutoff.
+Quote_Status,High if used as a feature,The status directly reveals the target outcome.,Exclude from model features.
+Accepted_Date,High if used as a feature,Acceptance date may reveal that a quotation was won.,Exclude from model features.
+Loss_Reason,High if used as a feature,The recorded loss reason is outcome-related information.,Use for post-outcome analysis only.
+Synthetic target generation,Synthetic-data limitation,Outcomes were generated from an illustrative probability formula.,Do not interpret model performance as real business performance.

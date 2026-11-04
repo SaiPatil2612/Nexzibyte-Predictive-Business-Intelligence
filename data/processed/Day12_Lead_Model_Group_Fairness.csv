@@ -1,0 +1,8 @@
+Group Field,Group,Records,Actual Positive Rate,Predicted Positive Rate,Mean Predicted Probability,Precision,Recall,False Positive Rate,False Negative Rate,True Positives,False Positives,True Negatives,False Negatives,Data Status,Interpretation Warning
+Industry / Sub-industry,AI / ML / GenAI,14,0.2857142857142857,0.07142857142857142,0.25361883085772474,0.0,0.0,0.1,1.0,0,1,9,4,SYNTHETIC — EXPLORATORY ONLY,Synthetic labels; interpret cautiously
+Industry / Sub-industry,B2B SaaS / Digital Adoption,1,1.0,0.0,0.2625628489230563,0.0,0.0,,1.0,0,0,0,1,SYNTHETIC — EXPLORATORY ONLY,Very small sample; metrics are unstable
+Industry / Sub-industry,B2B SaaS / Enterprise Software,14,0.35714285714285715,0.0,0.3053759303380931,0.0,0.0,0.0,1.0,0,0,9,5,SYNTHETIC — EXPLORATORY ONLY,Synthetic labels; interpret cautiously
+Industry / Sub-industry,CRM / Sales & Marketing Automation SaaS,1,1.0,0.0,0.3228850491117279,0.0,0.0,,1.0,0,0,0,1,SYNTHETIC — EXPLORATORY ONLY,Very small sample; metrics are unstable
+Industry / Sub-industry,Cloud Data Protection / Cybersecurity,1,1.0,0.0,0.2400692745046,0.0,0.0,,1.0,0,0,0,1,SYNTHETIC — EXPLORATORY ONLY,Very small sample; metrics are unstable
+Industry / Sub-industry,Customer Engagement SaaS / MarTech,1,0.0,0.0,0.2246449180741983,0.0,0.0,0.0,,0,0,1,0,SYNTHETIC — EXPLORATORY ONLY,Very small sample; metrics are unstable
+Industry / Sub-industry,FinTech / Payments,13,0.3076923076923077,0.15384615384615385,0.3971975348404095,0.5,0.25,0.1111111111111111,0.75,1,1,8,3,SYNTHETIC — EXPLORATORY ONLY,Synthetic labels; interpret cautiously

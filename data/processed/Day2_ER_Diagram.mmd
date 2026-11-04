@@ -1,0 +1,37 @@
+erDiagram
+    COMPANY ||--o{ PROSPECT_ASSESSMENT : has
+    COMPANY ||--o{ COMPANY_VALIDATION : undergoes
+
+    COMPANY {
+        bigint company_id PK
+        text company_name
+        text website_domain
+        text industry_subindustry
+        text hq_location
+        smallint founded_year
+        integer employee_count
+    }
+
+    PROSPECT_ASSESSMENT {
+        bigint assessment_id PK
+        bigint company_id FK
+        date date_verified
+        smallint company_size_score
+        smallint b2b_fit_score
+        smallint technology_signal_score
+        smallint business_need_score
+        smallint recent_business_signal_score
+        smallint decision_maker_score
+        smallint prospect_score
+        text prospect_classification
+    }
+
+    COMPANY_VALIDATION {
+        bigint validation_id PK
+        bigint company_id FK
+        text website_validation_status
+        text employee_validation_status
+        text duplicate_flag
+        text data_quality_status
+        date validation_date
+    }

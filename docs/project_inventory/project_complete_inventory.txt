@@ -1,0 +1,87 @@
+Folder PATH listing
+Volume serial number is C220-369C
+D:.
+|   NexziByte_Predictive_Business_Intelligence_Growth_Engine_15_Day_Project_Assignment_FIXED.docx
+|   project_complete_inventory.txt
+|   README.md
+|   
++---api
++---data
+|   +---clean
+|   |       Day3_Prospects_Clean.csv
+|   |       
+|   +---data_dictionary
+|   |       Day2_Data_Dictionary_FINAL.csv
+|   |       
+|   +---processed
+|   |       Day2_Data_Inventory.csv
+|   |       Day2_Data_Lineage_Source_Trust_FINAL.csv
+|   |       Day2_Entity_Data_Availability_FINAL.csv
+|   |       Day3_Data_Quality_Report.csv
+|   |       Day3_ETL_Cleaning_Rules.csv
+|   |       Day3_Review_Exceptions.csv
+|   |       Day5_Baseline_Readiness_Audit.csv
+|   |       Day5_Feature_Catalogue.csv
+|   |       Day5_Feature_Dataset.csv
+|   |       
+|   +---raw
+|   |       NexziByte_Final_Scored.csv
+|   |       
+|   \---synthetic
+|           Day6_Synthetic_Baseline_Metrics.csv
+|           Day6_Synthetic_Priority_Queue.csv
+|           Day6_Synthetic_Scored_Output.csv
+|           
++---docs
+|       NexziByte_Day1_01_BRD_Lite_Project_Charter_FINAL_CORRECTED.docx
+|       NexziByte_Day1_02_KPI_Dictionary_v1.1_CORRECTED.docx
+|       NexziByte_Day1_03_Target_Definitions_and_Success_Criteria_v1.1_CORRECTED.docx
+|       NexziByte_Day1_04_Business_Process_Map_v1.1_CORRECTED.docx
+|       
++---models
++---notebooks
+|   |   01_profiling.ipynb
+|   |   02_eda.ipynb
+|   |   03_features.ipynb
+|   |   04_lead_model.ipynb
+|   |   05_quote_model.ipynb
+|   |   06_revenue_forecast.ipynb
+|   |   07_project_risk.ipynb
+|   |   08_customer_intelligence.ipynb
+|   |   Data_Inventory.ipynb
+|   |   
+|   \---.ipynb_checkpoints
+|           01_profiling-checkpoint.ipynb
+|           02_eda-checkpoint.ipynb
+|           03_features-checkpoint.ipynb
+|           04_lead_model-checkpoint.ipynb
+|           Data_Inventory-checkpoint.ipynb
+|           
++---powerbi
++---reports
+|       Day2_Analytical_Dimensional_Model_FINAL_CORRECTED.md
+|       Day2_Final_QA_Report_CORRECTED.txt
+|       Day4_EDA_Findings_Report.md
+|       Day5_Baseline_Metrics.md
+|       Day6_Lead_Model_Evaluation.md
+|       EDA_Findings_Report.md
+|       
++---sql
+|   |   Day2_ER_Diagram_FINAL.mmd
+|   |   Day2_Target_Architecture_Draft.sql
+|   |   ER.png
+|   |   
+|   +---analytical_views
+|   +---quality_checks
+|   \---schema
+|           Day2_PostgreSQL_Schema_Draft.sql
+|           Day2_PostgreSQL_Schema_FINAL.sql
+|           
++---src
+|   +---anomaly_detection
+|   +---feature_engineering
+|   +---forecasting
+|   +---ingestion
+|   +---models
+|   \---recommendation
+\---tests

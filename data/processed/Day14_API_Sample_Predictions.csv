@@ -1,0 +1,6 @@
+Quote_Value,Discount_Pct,Revision_Count,Engagement_Count,Model_ID,Predicted_Outcome,Win_Probability,Lost_Probability,Data_Status,Approval_Status
+125000,10,2,5,DAY7_QUOTE_LOGISTIC,Lost,0.4622352702469817,0.5377647297530184,Synthetic demonstration only,Not approved for production use
+1,100,0,0,DAY7_QUOTE_LOGISTIC,Won,0.9983281110686777,0.0016718889313223073,Synthetic demonstration only,Not approved for production use
+85000,5,1,8,DAY7_QUOTE_LOGISTIC,Won,0.5820836238203896,0.4179163761796104,Synthetic demonstration only,Not approved for production use
+250000,15,3,4,DAY7_QUOTE_LOGISTIC,Lost,0.3901724659779881,0.6098275340220118,Synthetic demonstration only,Not approved for production use
+50000,0,0,2,DAY7_QUOTE_LOGISTIC,Lost,0.3341037051055034,0.6658962948944966,Synthetic demonstration only,Not approved for production use

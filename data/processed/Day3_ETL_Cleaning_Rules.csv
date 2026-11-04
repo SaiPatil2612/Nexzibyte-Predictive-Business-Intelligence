@@ -1,0 +1,7 @@
+Rule ID,Check,Action,Reason
+ETL-01,Company Name,Trim leading/trailing whitespace,Standardize text safely
+ETL-02,Website / Domain,Trim whitespace; flag invalid URLs,Improve website field consistency
+ETL-03,Date Verified,Parse using day-month-year format,Ensure consistent date representation
+ETL-04,Repeated company names,Flag; do not automatically delete,Prevent accidental loss of records
+ETL-05,Data Quality Status,Preserve existing status and review flags,Retain original audit findings
+ETL-06,Prospect Score,Validate against six component scores,Maintain arithmetic consistency

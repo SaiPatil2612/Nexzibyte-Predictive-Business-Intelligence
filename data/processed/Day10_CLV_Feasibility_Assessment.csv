@@ -1,0 +1,8 @@
+Input,Required_For,Available,Status,Action
+Customer identifier,Linking customer transactions over time,Synthetic Company_ID only,Partial,Confirm a stable identifier for real customers
+Transaction history,Measuring repeat purchases and customer activity,One synthetic quotation per company,Unavailable,Collect dated customer transaction records
+Collected revenue,Measuring actual customer revenue,Not available,Unavailable,Obtain verified invoices and collected-revenue records
+Delivery or service cost,Estimating customer contribution or profitability,Not available,Unavailable,Obtain customer-level cost data
+Retention or churn history,Estimating future customer relationship duration,Not available,Unavailable,Collect longitudinal retention and churn outcomes
+Observation period,Defining the CLV estimation horizon,Quotation dates from 2026-01-02 to 2026-08-27,Insufficient,Define an approved horizon and collect historical outcomes
+Discount rate,Discounting future customer contribution where appropriate,Not available,Unavailable,Obtain an approved finance assumption if required

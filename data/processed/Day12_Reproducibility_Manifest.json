@@ -1,0 +1,48 @@
+{
+  "project": "NexziByte Predictive Business Intelligence & Growth Engine",
+  "project_day": 12,
+  "created_at_local": "2026-10-29T11:11:38.663728+05:30",
+  "python_version": "3.13.5",
+  "pandas_version": "2.3.3",
+  "numpy_version": "2.5.2",
+  "scikit_learn_version": "1.9.0",
+  "random_seed_used_in_models": 42,
+  "data_policy": "Synthetic demonstration data; results are not validated business performance.",
+  "source_files": {
+    "Lead model": {
+      "path": "D:\\Nexzibyte Solution\\nexzibyte-predictive-bi\\data\\processed\\Day5_Feature_Dataset.csv",
+      "sha256": "68b4cc6e58d699707c0efc2158e66dba05fd400ad2124c169ec28bd58c8b166c",
+      "exists": true
+    },
+    "Quotation model": {
+      "path": "D:\\Nexzibyte Solution\\nexzibyte-predictive-bi\\data\\synthetic\\Day7_Synthetic_Quotation_Dataset.csv",
+      "sha256": "8c5bf258f1ce9b2b309923fc7d74445ce6dbd37c8687f78526168668525c6e6e",
+      "exists": true
+    },
+    "Project risk models": {
+      "path": "D:\\Nexzibyte Solution\\nexzibyte-predictive-bi\\data\\synthetic\\Day9_Synthetic_Project_Risk_Dataset.csv",
+      "sha256": "c5a4b1ea1b2e64801acd629a12eb925edd2da150040fe9e24108dfacd13345f4",
+      "exists": true
+    },
+    "Revenue forecast": {
+      "path": "D:\\Nexzibyte Solution\\nexzibyte-predictive-bi\\data\\synthetic\\Day8_Synthetic_Monthly_Revenue.csv",
+      "sha256": "730a9a63c2387950d1d0cd4d804527d26c96813b108ed2acc81a56df1be7d2a0",
+      "exists": true
+    }
+  },
+  "generated_outputs": {
+    "model_inventory": "D:\\Nexzibyte Solution\\nexzibyte-predictive-bi\\data\\processed\\Day12_Model_Inventory.csv",
+    "model_explainability": "D:\\Nexzibyte Solution\\nexzibyte-predictive-bi\\data\\processed\\Day12_Model_Explainability.csv",
+    "probability_calibration": "D:\\Nexzibyte Solution\\nexzibyte-predictive-bi\\data\\processed\\Day12_Probability_Calibration_Checks.csv",
+    "model_cards": "D:\\Nexzibyte Solution\\nexzibyte-predictive-bi\\data\\processed\\Day12_Model_Cards.csv",
+    "experiment_log": "D:\\Nexzibyte Solution\\nexzibyte-predictive-bi\\data\\processed\\Day12_Experiment_Log.csv"
+  },
+  "governance_status": "Technical documentation completed; business validation pending.",
+  "limitations": [
+    "Synthetic labels and outcomes.",
+    "Probability calibration is not established.",
+    "Feature importance and coefficients do not prove causation.",
+    "No model is approved for production use.",
+    "Reproduction depends on the recorded source files, software versions, and notebook implementation."
+  ]
+}

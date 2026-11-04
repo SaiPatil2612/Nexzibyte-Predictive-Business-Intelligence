@@ -1,0 +1,32 @@
+{
+  "pipeline": "day3_etl_pipeline.py",
+  "pipeline_version": "1.1.0",
+  "schema_version": "day3_prospects_v1",
+  "source_file": "data\\raw\\NexziByte_Final_Scored.csv",
+  "source_format": "CSV",
+  "clean_file": "data\\clean\\Day3_Prospects_Clean.csv",
+  "quality_report_file": "data\\processed\\Day3_Data_Quality_Report.csv",
+  "exceptions_file": "data\\processed\\Day3_Review_Exceptions.csv",
+  "source_row_count": 180,
+  "output_row_count": 180,
+  "source_sha256_before": "1e9db0d66d4bb45c2cbf0113a6d2207a9d0fed3c3275895c8e2a59473b29e68b",
+  "source_sha256_after": "1e9db0d66d4bb45c2cbf0113a6d2207a9d0fed3c3275895c8e2a59473b29e68b",
+  "source_unchanged": true,
+  "transformations": [
+    "Normalize source field values",
+    "Validate website URL formats",
+    "Validate date parsing",
+    "Check company-name uniqueness",
+    "Validate prospect score consistency",
+    "Preserve existing data-quality statuses and review details"
+  ],
+  "checks": {
+    "missing_values_in_source": 0,
+    "exact_duplicate_source_rows": 0,
+    "invalid_website_formats": 0,
+    "repeated_company_names": 0,
+    "score_inconsistencies": 0,
+    "date_parsing_failures": 0,
+    "needs_review_records": 4
+  }
+}

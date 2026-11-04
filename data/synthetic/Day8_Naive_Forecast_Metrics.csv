@@ -1,0 +1,2 @@
+Model,Test_Months,MAE,RMSE,Data_Status
+Naive Forecast,6,48010.65500000003,53655.155559674036,Synthetic demonstration only

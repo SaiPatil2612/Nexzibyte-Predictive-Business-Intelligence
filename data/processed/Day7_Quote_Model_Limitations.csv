@@ -1,0 +1,6 @@
+Area,Finding,Impact
+Quotation records,No quotation-level records found in the available raw or cleaned prospect datasets.,Cannot calculate actual quotation win probabilities.
+Win/loss outcomes,No verified quotation acceptance or loss outcomes are available.,Cannot train or evaluate a real quote-win model.
+Quotation features,"Quote value, discount, revisions, engagement history, and loss reasons are unavailable.",Cannot analyze actual win/loss drivers.
+Target definition,"The proposed win/loss definitions require business validation, including the 90-day acceptance window.",Final target rules require confirmation before production modeling.
+Recommended next step,Request historical quotation records with verified outcomes from the business owner.,Use verified data for production modeling; keep any synthetic demonstration clearly labeled.

@@ -1,0 +1,7 @@
+Month,Horizon_Months,Step_Ahead,Forecast_Revenue,Approx_Lower_95,Approx_Upper_95,Model,Data_Status,Interval_Note
+2026-01-01,6,1,788869.17,708311.73,869426.61,Naive Forecast,Synthetic demonstration only,Approximate residual-based interval; not formally calibrated or validated
+2026-02-01,6,2,788869.17,674943.75,902794.59,Naive Forecast,Synthetic demonstration only,Approximate residual-based interval; not formally calibrated or validated
+2026-03-01,6,3,788869.17,649339.59,928398.75,Naive Forecast,Synthetic demonstration only,Approximate residual-based interval; not formally calibrated or validated
+2026-04-01,6,4,788869.17,627754.29,949984.05,Naive Forecast,Synthetic demonstration only,Approximate residual-based interval; not formally calibrated or validated
+2026-05-01,6,5,788869.17,608737.26,969001.08,Naive Forecast,Synthetic demonstration only,Approximate residual-based interval; not formally calibrated or validated
+2026-06-01,6,6,788869.17,591544.55,986193.79,Naive Forecast,Synthetic demonstration only,Approximate residual-based interval; not formally calibrated or validated

@@ -1,0 +1,4 @@
+Target,Definition,Required_Fields,Current_Status,Approval_Status
+Project_Delayed,1 if Actual_End_Date exceeds Target_End_Date by the approved tolerance; otherwise 0,"Target_End_Date, Actual_End_Date",Unavailable in audited datasets,Business confirmation pending
+Effort_Overrun,1 if Actual_Effort exceeds Planned_Effort by the approved tolerance; otherwise 0,"Planned_Effort, Actual_Effort",Unavailable in audited datasets,Business confirmation pending
+Low_Margin_Risk,1 if forecast gross margin falls below the management-approved threshold,"Project_Revenue, Forecast_Delivery_Cost, Approved_Margin_Threshold",Project-level values unavailable,Finance confirmation pending

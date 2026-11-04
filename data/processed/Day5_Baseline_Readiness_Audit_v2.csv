@@ -1,0 +1,6 @@
+Check,Result,Details
+Verified conversion outcome available,BLOCKED,No documented conversion outcome column exists in the cleaned source.
+Historical engagement or time series available,BLOCKED,"The current dataset is a single snapshot. Reliable recency, frequency, engagement and trend features cannot be derived."
+Existing Prospect Score used as conversion target,PASS,Prospect Score and Prospect Classification are not treated as verified conversion outcomes.
+Quality flags excluded by default from model inputs,PASS,"Data Quality Status, Employee Validation and Company Age Validation are audit fields."
+Leakage review and approved target definition,BLOCKED,A documented business outcome and its timestamp must be approved before supervised model training.

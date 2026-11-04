@@ -1,0 +1,8 @@
+Rule,Projects_Flagged,Threshold_Type,Data_Status
+High_Delay_Anomaly,62,Provisional business-review threshold,Synthetic demonstration only
+High_Effort_Overrun_Anomaly,86,Provisional business-review threshold,Synthetic demonstration only
+High_Resource_Utilization_Anomaly,61,Provisional business-review threshold,Synthetic demonstration only
+Low_Forecast_Margin_Anomaly,46,Provisional business-review threshold,Synthetic demonstration only
+High_Change_Request_Anomaly,8,Provisional business-review threshold,Synthetic demonstration only
+High_Dependency_Delay_Anomaly,81,Provisional business-review threshold,Synthetic demonstration only
+High_Client_Delay_Anomaly,71,Provisional business-review threshold,Synthetic demonstration only

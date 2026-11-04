@@ -1,0 +1,10 @@
+﻿Check,Result Count,Acceptance Rule
+Input row count,180,Informational
+Output row count,180,Must equal input
+Missing values in source,0,Review
+Exact duplicate source rows,0,Review
+Invalid website formats,0,Review
+Repeated company names,0,Review; flag without deleting
+Score inconsistencies,0,Must be zero
+Date parsing failures,0,Review
+Existing Needs Review records,4,Preserve and investigate

@@ -1,0 +1,11 @@
+Feature,Data_Type,Missing_Values,Unique_Values,Review_Status
+Project_Start_Date,datetime64[ns],0,300,Synthetic cutoff-time feature; assumptions documented
+Planned_Effort,float64,0,270,Synthetic cutoff-time feature; assumptions documented
+Milestones_Planned,int64,0,17,Synthetic cutoff-time feature; assumptions documented
+Milestones_Completed,int64,0,13,Synthetic cutoff-time feature; assumptions documented
+Change_Request_Count,int64,0,7,Synthetic cutoff-time feature; assumptions documented
+Dependency_Delay_Days,int64,0,13,Synthetic cutoff-time feature; assumptions documented
+Client_Delay_Days,int64,0,10,Synthetic cutoff-time feature; assumptions documented
+Resource_Utilization,float64,0,225,Synthetic cutoff-time feature; assumptions documented
+Data_Cutoff_Date,datetime64[ns],0,258,Synthetic cutoff-time feature; assumptions documented
+Project_Age_Days_At_Cutoff,int64,0,85,Synthetic cutoff-time feature; assumptions documented

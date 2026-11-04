@@ -1,0 +1,181 @@
+Company Name,Industry / Sub-industry,Founded Year (Standardized),Target Customers / B2B or B2C,Employee Count (Numeric),Company Size Score,B2B Fit Score,Technology Signal Score,Business Need Score,Recent Business Signal Score,Decision-Maker Score,Data Quality Status,Employee Validation,Company Age (Years),Company Age Validation,Employee Count Log1p,Industry Code,Customer Segment Group,Customer Segment Code
+Postman,API Development / B2B SaaS,2014,B2B / developers and enterprises,750,20,20,20,15,15,10,Valid,Valid,12,Valid,6.621405651764134,1,B2B-led label,1
+BrowserStack,Software Testing / DevOps SaaS,2011,"B2B / developers, QA teams and enterprises",3000,20,20,20,5,15,10,Valid,Valid,15,Valid,8.006700845440367,18,B2B-led label,1
+Freshworks,SaaS / Business Software / AI,2010,B2B / businesses and enterprises,5000,20,20,20,15,5,10,Valid,Valid,16,Valid,8.517393171418904,16,B2B-led label,1
+Chargebee,SaaS / Subscription Billing,2011,B2B / SaaS and subscription businesses,3000,20,20,7,5,15,10,Valid,Valid,15,Valid,8.006700845440367,17,B2B-led label,1
+CleverTap,Customer Engagement SaaS / MarTech,2013,B2B / consumer brands and enterprises,750,20,20,15,15,15,10,Valid,Valid,13,Valid,6.621405651764134,7,B2B-led label,1
+Zoho,Enterprise Software / SaaS,1996,"B2B / SMB, mid-market and enterprise",24428,20,20,20,15,15,10,Valid,Valid,30,Valid,10.103526230135241,10,B2B-led label,1
+Razorpay,FinTech / Payments,2014,B2B / businesses and enterprises,4000,20,20,20,5,5,10,Valid,Valid,12,Valid,8.294299608857235,14,B2B-led label,1
+Paytm,FinTech / Digital Payments,2010,B2B & B2C / consumers and merchants,24684,20,15,7,5,15,10,Valid,Valid,16,Valid,10.113951050692963,12,B2B and B2C mentioned,0
+PhonePe,FinTech / Payments,2015,B2B & B2C / consumers and merchants,5000,20,15,7,5,5,10,Valid,Valid,11,Valid,8.517393171418904,14,B2B and B2C mentioned,0
+PayU India,FinTech / Payments,2014,"B2B / merchants, fintechs and enterprises",100,12,20,15,5,15,10,Needs Review,Needs Review — numeric count present but no defensible range was found,12,Valid,4.61512051684126,14,B2B-led label,1
+Zerodha,FinTech / Brokerage Technology,2010,B2B & B2C / retail investors and traders,2700,20,15,15,10,5,10,Valid,Valid,16,Valid,7.901377353792616,11,B2B and B2C mentioned,0
+Whatfix,B2B SaaS / Digital Adoption,2014,B2B / global enterprises,900,20,20,15,15,5,10,Valid,Valid,12,Valid,6.803505257608338,3,B2B-led label,1
+Darwinbox,HRTech / Enterprise SaaS,2015,B2B / enterprises,3000,20,20,20,15,15,10,Valid,Valid,11,Valid,8.006700845440367,15,B2B-led label,1
+LeadSquared,CRM / Sales & Marketing Automation SaaS,2011,B2B / enterprises,3000,20,20,20,15,15,4,Valid,Valid,15,Valid,8.006700845440367,5,B2B-led label,1
+HighRadius,FinTech / Enterprise SaaS / AI,2006,B2B / CFO organizations and enterprises,3500,20,20,20,5,15,10,Valid,Valid,20,Valid,8.160803920954665,13,B2B-led label,1
+Uniphore,Enterprise AI / B2B SaaS,2008,B2B / large enterprises,750,20,20,15,15,15,10,Valid,Valid,18,Valid,6.621405651764134,9,B2B-led label,1
+MoEngage,Customer Engagement SaaS / MarTech,2014,B2B / consumer brands and digital businesses,700,20,20,15,15,15,10,Valid,Valid,12,Valid,6.55250788703459,7,B2B-led label,1
+Hasura,Developer Infrastructure / Data APIs,2017,B2B / developers and enterprises,126,12,20,20,15,5,10,Valid,Valid,9,Valid,4.844187086458591,8,B2B-led label,1
+Druva,Cloud Data Protection / Cybersecurity,2008,B2B / enterprises,1000,20,20,15,15,5,10,Valid,Valid,18,Valid,6.90875477931522,6,B2B-led label,1
+Udaan,B2B Commerce / Supply Chain,2016,"B2B — kirana retailers, chemists, hotels, offices, brands and suppliers",6250,20,20,15,15,15,10,Valid,Valid,10,Valid,8.740496729931813,2,B2B-led label,1
+Icertis,B2B SaaS / Enterprise Software,2009,"B2B — large enterprises, legal, procurement, sales, finance and public-sector teams",3000,20,20,20,15,15,10,Valid,Valid,17,Valid,8.006700845440367,4,B2B-led label,1
+Zenoti,B2B SaaS / Enterprise Software,2010,"B2B — salons, spas, medspas, fitness and wellness businesses",750,20,20,20,15,15,10,Valid,Valid,16,Valid,6.621405651764134,4,B2B-led label,1
+Kissflow,B2B SaaS / Enterprise Software,2012,"B2B — enterprises and business teams across operations, IT, finance and HR",350,16,20,20,15,5,10,Valid,Valid,14,Valid,5.860786223465865,4,B2B-led label,1
+Sirion,B2B SaaS / Enterprise Software,2012,B2B — large enterprises and legal/procurement/finance teams,750,20,20,20,15,15,10,Valid,Valid,14,Valid,6.621405651764134,4,B2B-led label,1
+Zluri,B2B SaaS / Enterprise Software,2020,"B2B — IT, security, identity and enterprise operations teams",126,12,20,20,15,5,10,Valid,Valid,6,Valid,4.844187086458591,4,B2B-led label,1
+Cohesity,B2B SaaS / Enterprise Software,2013,"B2B — enterprises, governments and large regulated organizations",3000,20,20,20,15,5,10,Valid,Valid,13,Valid,8.006700845440367,4,B2B-led label,1
+Capillary Technologies,B2B SaaS / Enterprise Software,2012,"B2B — large enterprise brands, retailers and consumer businesses",750,20,20,20,15,15,10,Valid,Valid,14,Valid,6.621405651764134,4,B2B-led label,1
+FarMart,B2B SaaS / Enterprise Software,2015,"B2B2C — farmers, agri-input/service providers and agricultural buyers",400,16,15,12,15,15,10,Valid,Valid,11,Valid,5.993961427306569,4,B2B2C mentioned,2
+WebEngage,B2B SaaS / Enterprise Software,2011,"B2B — consumer brands, e-commerce, fintech, media, travel and digital businesses",400,16,20,20,15,15,10,Valid,Valid,15,Valid,5.993961427306569,4,B2B-led label,1
+Netcore Cloud,B2B SaaS / Enterprise Software,1997,B2B — enterprises and consumer brands,3000,20,20,20,15,5,10,Valid,Valid,29,Valid,8.006700845440367,4,B2B-led label,1
+Gupshup,B2B SaaS / Enterprise Software,2004,"B2B — enterprises, brands, banks, retailers and digital businesses",750,20,20,20,15,15,10,Valid,Valid,22,Valid,6.621405651764134,4,B2B-led label,1
+Exotel,B2B SaaS / Enterprise Software,2011,"B2B — enterprises, contact centers, sales and customer-support teams",750,20,20,20,15,15,10,Valid,Valid,15,Valid,6.621405651764134,4,B2B-led label,1
+Wingify,B2B SaaS / Enterprise Software,2009,"B2B — enterprises, product teams, marketers, CRO and UX teams",100,12,20,15,10,5,10,Needs Review,Needs Review — numeric count present but no defensible range was found,17,Valid,4.61512051684126,4,B2B-led label,1
+Vymo,B2B SaaS / Enterprise Software,2013,"B2B — insurers, banks, financial-services and enterprise sales teams",492,16,20,20,15,15,10,Valid,Valid,13,Valid,6.20050917404269,4,B2B-led label,1
+Pepper Content,B2B SaaS / Enterprise Software,2017,"B2B — brands, enterprises, agencies and marketing teams",523,20,20,20,15,5,10,Valid,Valid,9,Valid,6.261491684321042,4,B2B-led label,1
+Rocketium,B2B SaaS / Enterprise Software,2015,"B2B — e-commerce, retail, marketing and enterprise creative teams",126,12,20,20,15,5,10,Valid,Valid,11,Valid,4.844187086458591,4,B2B-led label,1
+Facilio,B2B SaaS / Enterprise Software,2017,"B2B — commercial real estate, facilities, manufacturing and enterprise operations",100,12,20,20,15,15,10,Needs Review,Needs Review — numeric count present but no defensible range was found,9,Valid,4.61512051684126,4,B2B-led label,1
+SpotDraft,B2B SaaS / Enterprise Software,2017,"B2B — legal, sales, procurement and enterprise operations teams",100,12,20,20,15,15,10,Needs Review,Needs Review — numeric count present but no defensible range was found,9,Valid,4.61512051684126,4,B2B-led label,1
+Sprinto,B2B SaaS / Enterprise Software,2020,"B2B — startups and enterprises needing SOC 2, ISO 27001, GDPR and security compliance",225,16,20,20,15,15,10,Valid,Valid,6,Valid,5.420534999272286,4,B2B-led label,1
+VWO,B2B SaaS / Enterprise Software,2010,"B2B — enterprise digital/product, marketing, CRO and experimentation teams",700,20,20,15,15,5,10,Valid,Valid,16,Valid,6.55250788703459,4,B2B-led label,1
+SurveySparrow,B2B SaaS / Enterprise Software,2017,"B2B — enterprises, CX/EX teams, HR and customer-support organizations",300,16,20,20,15,5,4,Valid,Valid,9,Valid,5.707110264748875,4,B2B-led label,1
+Fyle,B2B SaaS / Enterprise Software,2016,"B2B — companies, finance teams, employees and accountants",300,16,20,20,15,5,4,Valid,Valid,10,Valid,5.707110264748875,4,B2B-led label,1
+Keka,B2B SaaS / Enterprise Software,2014,"B2B — SMBs and enterprises, HR, payroll and people teams",900,20,20,20,15,5,4,Valid,Valid,12,Valid,6.803505257608338,4,B2B-led label,1
+greytHR,B2B SaaS / Enterprise Software,1994,B2B — businesses and HR/payroll departments,1000,20,20,20,15,5,4,Valid,Valid,32,Valid,6.90875477931522,4,B2B-led label,1
+PeopleStrong,B2B SaaS / Enterprise Software,2005,"B2B — mid-market and large enterprises, HR and workforce teams",3000,20,20,20,15,5,4,Valid,Valid,21,Valid,8.006700845440367,4,B2B-led label,1
+Lentra,B2B SaaS / Enterprise Software,2011,"B2B — banks, NBFCs, fintechs and financial institutions",1000,20,20,20,15,5,4,Valid,Valid,15,Valid,6.90875477931522,4,B2B-led label,1
+Perfios,B2B SaaS / Enterprise Software,2008,"B2B — banks, NBFCs, fintechs and financial-services enterprises",2000,20,20,20,15,5,4,Valid,Valid,18,Valid,7.601402334583733,4,B2B-led label,1
+Locus,B2B SaaS / Enterprise Software,2015,"B2B — e-commerce, retail, logistics, transportation and delivery enterprises",800,20,20,20,15,5,4,Valid,Valid,11,Valid,6.68586094706836,4,B2B-led label,1
+Shipsy,B2B SaaS / Enterprise Software,2015,"B2B — logistics, e-commerce, retail and supply-chain companies",1000,20,20,20,15,5,4,Valid,Valid,11,Valid,6.90875477931522,4,B2B-led label,1
+Mindtickle,B2B SaaS / Enterprise Software,2011,"B2B — enterprise sales, revenue and enablement organizations",1500,20,20,20,15,5,4,Valid,Valid,15,Valid,7.313886831633462,4,B2B-led label,1
+Yellow.ai,B2B SaaS / Enterprise Software,2016,B2B — enterprises and customer/employee service organizations,1200,20,20,20,15,5,4,Valid,Valid,10,Valid,7.0909098220799835,4,B2B-led label,1
+Haptik,B2B SaaS / Enterprise Software,2013,"B2B — enterprises, consumer brands, BFSI, retail and customer-service teams",700,20,20,20,15,5,4,Valid,Valid,13,Valid,6.55250788703459,4,B2B-led label,1
+Leena AI,B2B SaaS / Enterprise Software,2018,"B2B — enterprises, HR departments and employee-service teams",400,16,20,20,15,5,4,Valid,Valid,8,Valid,5.993961427306569,4,B2B-led label,1
+Nanonets,B2B SaaS / Enterprise Software,2017,"B2B — finance, operations, accounting and enterprise document-processing teams",300,16,20,20,15,5,4,Valid,Valid,9,Valid,5.707110264748875,4,B2B-led label,1
+Docsumo,B2B SaaS / Enterprise Software,2018,"B2B — banks, lenders, fintechs, insurance and finance operations",300,16,20,20,15,5,4,Valid,Valid,8,Valid,5.707110264748875,4,B2B-led label,1
+Atlan,B2B SaaS / Enterprise Software,2018,"B2B — data/AI teams, enterprises, data engineers, analysts and governance teams",500,20,20,20,15,5,4,Valid,Valid,8,Valid,6.2166061010848646,4,B2B-led label,1
+SuperOps,B2B SaaS / Enterprise Software,2020,"B2B — MSPs, IT service providers and internal IT teams",300,16,20,20,15,5,4,Valid,Valid,6,Valid,5.707110264748875,4,B2B-led label,1
+Zuper,B2B SaaS / Enterprise Software,2020,"B2B — field-service businesses, contractors and service organizations",250,16,20,20,15,5,4,Valid,Valid,6,Valid,5.5254529391317835,4,B2B-led label,1
+Unbox Robotics,B2B SaaS / Enterprise Software,2019,"B2B — warehouses, e-commerce, logistics and parcel-sorting operations",300,16,20,20,15,5,4,Valid,Valid,7,Valid,5.707110264748875,4,B2B-led label,1
+Appsmith,B2B SaaS / Enterprise Software,2019,"B2B — developers, IT teams and enterprises building internal applications",200,12,20,20,15,5,4,Valid,Valid,7,Valid,5.303304908059076,4,B2B-led label,1
+Frappe Technologies,B2B SaaS / Enterprise Software,2008,"B2B — businesses, enterprises, SMEs and organizations needing open-source business software",300,16,20,20,15,5,4,Valid,Valid,18,Valid,5.707110264748875,4,B2B-led label,1
+ERPNext,B2B SaaS / Enterprise Software,2008,"B2B — SMEs and enterprises across finance, manufacturing, distribution, retail and services",300,16,20,20,5,5,4,Valid,Valid,18,Valid,5.707110264748875,4,B2B-led label,1
+Mettl,B2B SaaS / Enterprise Software,2009,"B2B — enterprises, HR teams, recruiters, universities and assessment organizations",1500,20,20,20,15,5,10,Valid,Valid,17,Valid,7.313886831633462,4,B2B-led label,1
+Unstop,B2B SaaS / Enterprise Software,2017,B2B2C — employers/recruiters plus students and young professionals,500,20,15,20,15,5,4,Valid,Valid,9,Valid,6.2166061010848646,4,B2B2C mentioned,2
+Simplilearn,B2B SaaS / Enterprise Software,2010,B2C + B2B — individual learners and enterprise workforce-training customers,2500,20,15,20,15,5,4,Valid,Valid,16,Valid,7.824445930877619,4,B2B and B2C mentioned,0
+upGrad Enterprise,B2B SaaS / Enterprise Software,2015,B2B — enterprises and HR/L&D/workforce transformation teams,1000,20,20,20,15,5,4,Valid,Valid,11,Valid,6.90875477931522,4,B2B-led label,1
+Classplus,B2B SaaS / Enterprise Software,2018,B2B2C — coaching institutes/educators serving students,500,20,15,15,15,5,4,Valid,Valid,8,Valid,6.2166061010848646,4,B2B2C mentioned,2
+Teachmint,B2B SaaS / Enterprise Software,2020,"B2B2C — schools, educational institutions, teachers and students",700,20,15,20,15,5,4,Valid,Valid,6,Valid,6.55250788703459,4,B2B2C mentioned,2
+Disprz,B2B SaaS / Enterprise Software,2015,"B2B — enterprises, HR/L&D and workforce-skilling teams",500,20,20,20,15,5,4,Valid,Valid,11,Valid,6.2166061010848646,4,B2B-led label,1
+LEAD School,B2B SaaS / Enterprise Software,2012,"B2B2C — private schools, educators, parents and students",5000,20,15,15,15,5,4,Valid,Valid,14,Valid,8.517393171418904,4,B2B2C mentioned,2
+BrightCHAMPS,B2B SaaS / Enterprise Software,2020,B2C + B2B2C — children/parents and education partners,1000,20,15,15,15,5,4,Valid,Valid,6,Valid,6.90875477931522,4,B2B2C mentioned,2
+Miko,B2B SaaS / Enterprise Software,2015,B2C — parents and children,300,16,5,15,15,5,4,Valid,Valid,11,Valid,5.707110264748875,4,B2C-led label,3
+GoKwik,B2B SaaS / Enterprise Software,2021,"B2B — e-commerce merchants, D2C brands and online retailers",500,20,20,20,15,5,4,Valid,Valid,5,Valid,6.2166061010848646,4,B2B-led label,1
+Netomi,B2B SaaS / Enterprise Software,2015,B2B — enterprises and customer-service organizations,250,16,20,20,15,5,4,Valid,Valid,11,Valid,5.5254529391317835,4,B2B-led label,1
+Verloop,B2B SaaS / Enterprise Software,2015,"B2B — enterprises, brands, support and sales teams",250,16,20,20,15,5,4,Valid,Valid,11,Valid,5.5254529391317835,4,B2B-led label,1
+Observe.AI,B2B SaaS / Enterprise Software,2017,"B2B — contact centers, customer-service leaders and enterprise CX teams",500,20,20,15,15,5,4,Valid,Valid,9,Valid,6.2166061010848646,4,B2B-led label,1
+Skit.ai,B2B SaaS / Enterprise Software,2016,"B2B — contact centers, enterprises and customer-service organizations",400,16,20,20,15,5,4,Valid,Valid,10,Valid,5.993961427306569,4,B2B-led label,1
+Gnani.ai,B2B SaaS / Enterprise Software,2016,"B2B — enterprises, contact centers, banks, insurers and customer-service teams",300,16,20,20,15,5,4,Valid,Valid,10,Valid,5.707110264748875,4,B2B-led label,1
+CoRover,B2B SaaS / Enterprise Software,2016,B2B/B2G — enterprises and government organizations,150,12,20,20,15,5,4,Valid,Valid,10,Valid,5.017279836814924,4,B2B-led label,1
+Spyne,B2B SaaS / Enterprise Software,2020,"B2B — automotive dealers, OEMs, marketplaces, retailers and e-commerce brands",500,20,20,20,15,5,4,Valid,Valid,6,Valid,6.2166061010848646,4,B2B-led label,1
+Pixis,B2B SaaS / Enterprise Software,2018,"B2B — marketing teams, brands, agencies and growth organizations",1000,20,20,20,15,5,4,Valid,Valid,8,Valid,6.90875477931522,4,B2B-led label,1
+Mad Street Den,B2B SaaS / Enterprise Software,2013,"B2B — retailers, brands, e-commerce and commerce organizations",500,20,20,20,15,5,4,Valid,Valid,13,Valid,6.2166061010848646,4,B2B-led label,1
+Unlearn,B2B SaaS / Enterprise Software,2017,"B2B — pharmaceutical, biotech and clinical-research organizations",200,12,20,20,15,5,4,Valid,Valid,9,Valid,5.303304908059076,4,B2B-led label,1
+Qure.ai,B2B SaaS / Enterprise Software,2016,"B2B/B2G — hospitals, diagnostic centers, healthcare systems and public-health organizations",500,20,20,20,15,5,4,Valid,Valid,10,Valid,6.2166061010848646,4,B2B-led label,1
+SigTuple,B2B SaaS / Enterprise Software,2015,"B2B — hospitals, pathology labs and diagnostic providers",300,16,20,20,15,5,4,Valid,Valid,11,Valid,5.707110264748875,4,B2B-led label,1
+Niramai,B2B SaaS / Enterprise Software,2016,"B2B/B2G — hospitals, diagnostic centers, screening programs and healthcare providers",150,12,20,20,15,5,4,Valid,Valid,10,Valid,5.017279836814924,4,B2B-led label,1
+Mfine,B2B SaaS / Enterprise Software,2017,"B2C + B2B2C — patients, doctors, hospitals and corporate healthcare customers",500,20,15,20,15,5,4,Valid,Valid,9,Valid,6.2166061010848646,4,B2B2C mentioned,2
+Pharmarack,B2B SaaS / Enterprise Software,2015,"B2B — pharmacies, distributors, pharma companies and healthcare supply-chain participants",700,20,20,20,15,5,4,Valid,Valid,11,Valid,6.55250788703459,4,B2B-led label,1
+MediBuddy,B2B SaaS / Enterprise Software,2013,"B2C + B2B — patients, employers, insurers and healthcare providers",3000,20,15,20,15,5,4,Valid,Valid,13,Valid,8.006700845440367,4,B2B and B2C mentioned,0
+Practo,B2B SaaS / Enterprise Software,2008,"B2C + B2B2C — patients, doctors, clinics, hospitals and diagnostic providers",3000,20,15,20,15,5,4,Valid,Valid,18,Valid,8.006700845440367,4,B2B2C mentioned,2
+HealthifyMe,B2B SaaS / Enterprise Software,2012,"B2C + B2B — consumers, employers and wellness partners",1000,20,15,15,15,5,4,Valid,Valid,14,Valid,6.90875477931522,4,B2B and B2C mentioned,0
+Cult.fit,B2B SaaS / Enterprise Software,2016,B2C — consumers; also B2B corporate wellness customers,5000,20,15,15,15,5,4,Valid,Valid,10,Valid,8.517393171418904,4,B2B and B2C mentioned,0
+Sarvam AI,AI / ML / GenAI,2023,"B2B/B2G — enterprises, developers and government organizations",150,12,20,20,15,5,4,Valid,Valid,3,Valid,5.017279836814924,0,B2B-led label,1
+Krutrim,AI / ML / GenAI,2023,"B2B & B2C — enterprises, developers and consumers using Indian-language AI products",500,20,15,20,15,5,4,Valid,Valid,3,Valid,6.2166061010848646,0,B2B and B2C mentioned,0
+Ema,AI / ML / GenAI,2023,B2B — enterprises and knowledge-work teams,100,12,20,20,15,5,4,Valid,Valid,3,Valid,4.61512051684126,0,B2B-led label,1
+Neysa,AI / ML / GenAI,2023,"B2B — AI companies, enterprises, developers and organizations needing GPU/cloud infrastructure",500,20,20,20,15,5,4,Valid,Valid,3,Valid,6.2166061010848646,0,B2B-led label,1
+Arya.ai,AI / ML / GenAI,2013,B2B — financial institutions and enterprises,200,12,20,20,15,5,4,Valid,Valid,13,Valid,5.303304908059076,0,B2B-led label,1
+Madison AI,AI / ML / GenAI,2019,B2B — businesses and enterprise teams,100,12,20,20,15,5,4,Valid,Valid,7,Valid,4.61512051684126,0,B2B-led label,1
+Fractal,AI / ML / GenAI,2000,"B2B — large enterprises across BFSI, healthcare, retail, CPG and other industries",5000,20,20,20,15,5,4,Valid,Valid,26,Valid,8.517393171418904,0,B2B-led label,1
+Tiger Analytics,AI / ML / GenAI,2011,B2B — large enterprises and data/AI teams,5000,20,20,20,15,5,4,Valid,Valid,15,Valid,8.517393171418904,0,B2B-led label,1
+Tredence,AI / ML / GenAI,2013,"B2B — enterprises across consumer, retail, healthcare, BFSI and technology",5000,20,20,20,15,5,4,Valid,Valid,13,Valid,8.517393171418904,0,B2B-led label,1
+Quantiphi,AI / ML / GenAI,2008,B2B — enterprises and public-sector organizations,5000,20,20,20,15,5,10,Valid,Valid,18,Valid,8.517393171418904,0,B2B-led label,1
+Course5 Intelligence,AI / ML / GenAI,2000,"B2B — enterprises, brands and analytics organizations",3000,20,20,20,15,5,4,Valid,Valid,26,Valid,8.006700845440367,0,B2B-led label,1
+Gramener,AI / ML / GenAI,2010,"B2B — enterprises, data teams and business users",200,12,20,20,15,5,4,Valid,Valid,16,Valid,5.303304908059076,0,B2B-led label,1
+Cartesian Consulting,AI / ML / GenAI,2004,"B2B — enterprises, marketers and analytics teams",500,20,20,20,15,5,4,Valid,Valid,22,Valid,6.2166061010848646,0,B2B-led label,1
+Affle,AI / ML / GenAI,2005,"B2B — advertisers, brands, app developers and marketers",2500,20,20,12,10,5,4,Valid,Valid,21,Valid,7.824445930877619,0,B2B-led label,1
+Cognida.ai,AI / ML / GenAI,2020,B2B — enterprises and data/AI teams,500,20,20,20,15,5,4,Valid,Valid,6,Valid,6.2166061010848646,0,B2B-led label,1
+ParallelDots,AI / ML / GenAI,2013,"B2B — retailers, CPG brands and field-sales organizations",250,16,20,20,15,5,4,Valid,Valid,13,Valid,5.5254529391317835,0,B2B-led label,1
+ArtPark,AI / ML / GenAI,2021,"B2B/B2G — enterprises, research organizations and government/public-sector programs",150,12,20,15,15,5,4,Valid,Valid,5,Valid,5.017279836814924,0,B2B-led label,1
+BharatGPT,AI / ML / GenAI,2023,"B2B/B2G — enterprises, developers and government organizations",100,12,20,20,15,5,10,Valid,Valid,3,Valid,4.61512051684126,0,B2B-led label,1
+Rephrase.ai,AI / ML / GenAI,2018,"B2B — brands, enterprises and marketing/content teams",150,12,20,15,15,5,4,Valid,Valid,8,Valid,5.017279836814924,0,B2B-led label,1
+Vernacular.ai,AI / ML / GenAI,2016,"B2B — enterprises, contact centers, banks and customer-service organizations",100,12,20,20,15,5,4,Valid,Valid,10,Valid,4.61512051684126,0,B2B-led label,1
+Wysa,AI / ML / GenAI,2015,B2B + B2C — employers/health organizations and individual users,300,16,15,15,15,5,4,Valid,Valid,11,Valid,5.707110264748875,0,B2B and B2C mentioned,0
+Niki.ai,AI / ML / GenAI,2015,B2C + B2B2C — consumers and businesses offering digital services,100,12,15,20,15,5,4,Valid,Valid,11,Valid,4.61512051684126,0,B2B2C mentioned,2
+Staqu,AI / ML / GenAI,2015,"B2B/B2G — security, industrial and government organizations",200,12,20,20,15,5,4,Valid,Valid,11,Valid,5.303304908059076,0,B2B-led label,1
+Artelus,AI / ML / GenAI,2017,"B2B/B2G — hospitals, pathology labs and screening programs",100,12,20,20,15,5,4,Valid,Valid,9,Valid,4.61512051684126,0,B2B-led label,1
+Gan.ai,AI / ML / GenAI,2021,"B2B — brands, marketers and sales organizations",100,12,20,20,15,5,4,Valid,Valid,5,Valid,4.61512051684126,0,B2B-led label,1
+Dubverse,AI / ML / GenAI,2021,B2B + B2C — media/enterprise teams and individual creators,100,12,15,20,15,5,4,Valid,Valid,5,Valid,4.61512051684126,0,B2B and B2C mentioned,0
+Eleven Labs India,AI / ML / GenAI,2022,"B2B + B2C — enterprises, developers, creators and consumers",100,12,15,20,15,5,4,Valid,Valid,4,Valid,4.61512051684126,0,B2B and B2C mentioned,0
+Pep,AI / ML / GenAI,2020,B2B — businesses and enterprise customers,100,12,20,20,15,5,4,Valid,Valid,6,Valid,4.61512051684126,0,B2B-led label,1
+TrueFan,AI / ML / GenAI,2021,B2C + B2B — fans/consumers and brands,100,12,15,15,15,5,4,Valid,Valid,5,Valid,4.61512051684126,0,B2B and B2C mentioned,0
+LimeChat,AI / ML / GenAI,2021,"B2B — e-commerce brands, enterprises and customer-support teams",150,12,20,20,15,5,4,Valid,Valid,5,Valid,5.017279836814924,0,B2B-led label,1
+SuperShare,AI / ML / GenAI,2020,B2B & B2C — users and organizations depending on the product offering,100,12,15,15,15,5,4,Valid,Valid,6,Valid,4.61512051684126,0,B2B and B2C mentioned,0
+Smytten AI,AI / ML / GenAI,2015,B2B2C — consumer brands and shoppers/consumers,300,16,15,12,15,5,4,Valid,Valid,11,Valid,5.707110264748875,0,B2B2C mentioned,2
+Kissan AI,AI / ML / GenAI,2023,B2B2C — agriculture/food businesses and end users/farmers,100,12,15,20,15,5,4,Valid,Valid,3,Valid,4.61512051684126,0,B2B2C mentioned,2
+Detect Technologies,AI / ML / GenAI,2013,"B2B — industrial, energy, manufacturing and infrastructure companies",500,20,20,20,15,5,4,Valid,Valid,13,Valid,6.2166061010848646,0,B2B-led label,1
+Ati Motors,AI / ML / GenAI,2017,"B2B — warehouses, factories, logistics and manufacturing operations",250,16,20,20,15,5,4,Valid,Valid,9,Valid,5.5254529391317835,0,B2B-led label,1
+Ati Robotics,AI / ML / GenAI,2017,B2B — industrial and warehouse automation customers,100,12,20,20,15,5,4,Valid,Valid,9,Valid,4.61512051684126,0,B2B-led label,1
+GreyOrange,AI / ML / GenAI,2011,"B2B — warehouses, e-commerce, retail and logistics enterprises",2000,20,20,20,15,5,4,Valid,Valid,15,Valid,7.601402334583733,0,B2B-led label,1
+Addverb,AI / ML / GenAI,2016,"B2B — warehouses, manufacturers, e-commerce and logistics companies",1000,20,20,20,15,5,4,Valid,Valid,10,Valid,6.90875477931522,0,B2B-led label,1
+Ather Energy,AI / ML / GenAI,2013,B2C — electric two-wheeler consumers; also commercial/fleet partners,4000,20,5,20,15,5,4,Valid,Valid,13,Valid,8.294299608857235,0,B2C-led label,3
+Ola Electric,AI / ML / GenAI,2017,B2C — electric-vehicle consumers; also fleet/energy ecosystem partners,5000,20,5,20,15,5,4,Valid,Valid,9,Valid,8.517393171418904,0,B2C-led label,3
+Ultraviolette Automotive,AI / ML / GenAI,2016,B2C — premium EV motorcycle consumers,1000,20,5,20,15,5,4,Valid,Valid,10,Valid,6.90875477931522,0,B2C-led label,3
+Rapido,AI / ML / GenAI,2015,B2C + B2B2C — riders/passengers and driver-partners,3000,20,15,5,15,5,4,Valid,Valid,11,Valid,8.006700845440367,0,B2B2C mentioned,2
+Bounce Infinity,AI / ML / GenAI,2014,B2C + B2B — EV consumers and mobility/fleet partners,500,20,15,7,10,5,4,Valid,Valid,12,Valid,6.2166061010848646,0,B2B and B2C mentioned,0
+BluSmart,AI / ML / GenAI,2019,"B2C + B2B — riders, corporate mobility customers and fleet partners",1000,20,15,7,15,5,4,Valid,Valid,7,Valid,6.90875477931522,0,B2B and B2C mentioned,0
+Agnikul Cosmos,AI / ML / GenAI,2017,"B2B/B2G — satellite companies, space organizations and government customers",500,20,20,15,5,5,4,Valid,Valid,9,Valid,6.2166061010848646,0,B2B-led label,1
+Skyroot Aerospace,AI / ML / GenAI,2017,"B2B/B2G — satellite operators, space companies and government customers",500,20,20,15,10,5,4,Valid,Valid,9,Valid,6.2166061010848646,0,B2B-led label,1
+Pixxel,AI / ML / GenAI,2019,"B2B/B2G — governments, enterprises, agriculture, climate and defense/space customers",300,16,20,20,10,5,4,Valid,Valid,7,Valid,5.707110264748875,0,B2B-led label,1
+Bellatrix Aerospace,AI / ML / GenAI,2015,"B2B/B2G — satellite manufacturers, space companies and government/space agencies",300,16,20,5,5,5,4,Valid,Valid,11,Valid,5.707110264748875,0,B2B-led label,1
+GalaxEye,AI / ML / GenAI,2020,"B2B/B2G — governments, defense, agriculture, infrastructure and geospatial customers",100,12,20,15,5,5,4,Valid,Valid,6,Valid,4.61512051684126,0,B2B-led label,1
+PierSight,AI / ML / GenAI,2023,"B2B/B2G — maritime, defense, infrastructure, climate and geospatial organizations",100,12,20,15,5,5,4,Valid,Valid,3,Valid,4.61512051684126,0,B2B-led label,1
+Dhruva Space,AI / ML / GenAI,2012,"B2B/B2G — satellite companies, governments, research institutions and commercial space customers",300,16,20,15,15,5,4,Valid,Valid,14,Valid,5.707110264748875,0,B2B-led label,1
+Digantara,AI / ML / GenAI,2015,"B2B/B2G — satellite operators, governments, defense and space organizations",200,12,20,20,5,5,4,Valid,Valid,11,Valid,5.303304908059076,0,B2B-led label,1
+Cashfree Payments,FinTech / Payments,2015,"B2B — online businesses, marketplaces, fintechs and enterprises",1500,20,20,20,15,5,4,Valid,Valid,11,Valid,7.313886831633462,14,B2B-led label,1
+Pine Labs,FinTech / Payments,1998,"B2B — merchants, retailers, banks and enterprise commerce organizations",3000,20,20,20,15,5,4,Valid,Valid,28,Valid,8.006700845440367,14,B2B-led label,1
+Juspay,FinTech / Payments,2012,"B2B — merchants, banks, fintechs and large digital businesses",2000,20,20,20,10,5,4,Valid,Valid,14,Valid,7.601402334583733,14,B2B-led label,1
+M2P Fintech,FinTech / Payments,2014,"B2B — banks, fintechs and enterprises embedding financial products",1500,20,20,20,15,5,4,Valid,Valid,12,Valid,7.313886831633462,14,B2B-led label,1
+Open Financial Technologies,FinTech / Payments,2017,"B2B — SMEs, businesses, banks and fintech ecosystem partners",500,20,20,20,15,5,4,Valid,Valid,9,Valid,6.2166061010848646,14,B2B-led label,1
+CRED,FinTech / Payments,2018,B2C — credit-card users and consumers,3000,20,5,20,15,5,4,Valid,Valid,8,Valid,8.006700845440367,14,B2C-led label,3
+Groww,FinTech / Payments,2016,B2C — retail investors and consumers,5000,20,5,20,15,5,4,Valid,Valid,10,Valid,8.517393171418904,14,B2C-led label,3
+Upstox,FinTech / Payments,2009,B2C — retail investors and traders,3000,20,5,20,15,5,4,Valid,Valid,17,Valid,8.006700845440367,14,B2C-led label,3
+Navi,FinTech / Payments,2018,"B2C — consumers seeking lending, insurance and investment products",2000,20,5,20,15,5,4,Valid,Valid,8,Valid,7.601402334583733,14,B2C-led label,3
+Slice,FinTech / Payments,2016,B2C — consumers and young digital-finance users,1000,20,5,15,15,5,4,Valid,Valid,10,Valid,6.90875477931522,14,B2C-led label,3
+Fi,FinTech / Payments,2019,B2C — consumers seeking digital banking and money-management services,500,20,5,20,15,5,4,Valid,Valid,7,Valid,6.2166061010848646,14,B2C-led label,3
+Jupiter,FinTech / Payments,2019,B2C — consumers seeking digital banking and money-management services,1000,20,5,20,15,5,4,Valid,Valid,7,Valid,6.90875477931522,14,B2C-led label,3
+OneCard,FinTech / Payments,2019,B2C — consumers seeking credit cards and rewards,1000,20,5,20,10,5,4,Valid,Valid,7,Valid,6.90875477931522,14,B2C-led label,3
+Acko,FinTech / Payments,2016,B2C + B2B2C — consumers plus corporate/fleet insurance customers,3000,20,15,20,15,5,4,Valid,Valid,10,Valid,8.006700845440367,14,B2B2C mentioned,2
+Policybazaar,FinTech / Payments,2008,B2C + B2B2C — consumers and businesses purchasing insurance,10000,20,15,20,15,5,4,Valid,Valid,18,Valid,9.210440366976517,14,B2B2C mentioned,2
+ClearTax,FinTech / Payments,2011,"B2C + B2B — individuals, businesses, accountants and finance teams",2000,20,15,20,15,5,4,Valid,Valid,15,Valid,7.601402334583733,14,B2B and B2C mentioned,0
+Yubi,FinTech / Payments,2020,"B2B — banks, NBFCs, fintechs and lending institutions",1500,20,20,20,15,5,4,Valid,Valid,6,Valid,7.313886831633462,14,B2B-led label,1
+Credgenics,FinTech / Payments,2018,"B2B — banks, NBFCs and financial institutions",1000,20,20,20,15,5,4,Valid,Valid,8,Valid,6.90875477931522,14,B2B-led label,1
+Lendingkart,FinTech / Payments,2014,B2B — SMEs and small-business owners,1000,20,20,20,15,5,4,Valid,Valid,12,Valid,6.90875477931522,14,B2B-led label,1
+KreditBee,FinTech / Payments,2018,B2C — consumers seeking digital credit/personal loans,3000,20,5,20,15,5,4,Valid,Valid,8,Valid,8.006700845440367,14,B2C-led label,3
+Moneyview,FinTech / Payments,2014,B2C — consumers seeking personal finance and credit products,1500,20,5,20,15,5,4,Valid,Valid,12,Valid,7.313886831633462,14,B2C-led label,3
+Fibe,FinTech / Payments,2015,B2C — young consumers seeking digital credit,1000,20,5,20,10,5,4,Valid,Valid,11,Valid,6.90875477931522,14,B2C-led label,3
+EarlySalary,FinTech / Payments,2015,B2C — salaried consumers seeking salary advances/personal loans,1000,20,5,12,10,5,4,Valid,Valid,11,Valid,6.90875477931522,14,B2C-led label,3
+Rupeek,FinTech / Payments,2015,B2C + B2B — consumers and businesses seeking secured gold loans,500,20,15,20,15,5,4,Valid,Valid,11,Valid,6.2166061010848646,14,B2B and B2C mentioned,0
+Progcap,FinTech / Payments,2017,B2B — small businesses and underserved SMEs,500,20,20,20,15,5,4,Valid,Valid,9,Valid,6.2166061010848646,14,B2B-led label,1
+OfBusiness,FinTech / Payments,2016,B2B — SMEs and businesses purchasing raw materials and financing,3000,20,20,15,15,5,4,Valid,Valid,10,Valid,8.006700845440367,14,B2B-led label,1
+INDmoney,FinTech / Payments,2019,B2C — retail investors and personal-finance users,500,20,5,20,15,5,4,Valid,Valid,7,Valid,6.2166061010848646,14,B2C-led label,3
+StockGro,FinTech / Payments,2020,B2C — retail investors and financial learners,300,16,5,15,15,5,4,Valid,Valid,6,Valid,5.707110264748875,14,B2C-led label,3
+Smallcase,FinTech / Payments,2015,B2C — retail investors; also B2B2C through broker/wealth partners,500,20,15,20,15,5,4,Valid,Valid,11,Valid,6.2166061010848646,14,B2B2C mentioned,2
+Ditto Insurance,FinTech / Payments,2018,B2C — consumers seeking health/life insurance advice and purchase,500,20,5,15,15,5,4,Valid,Valid,8,Valid,6.2166061010848646,14,B2C-led label,3
+InsuranceDekho,FinTech / Payments,2016,"B2C + B2B2C — consumers, agents and insurance distribution partners",2000,20,15,15,15,5,4,Valid,Valid,10,Valid,7.601402334583733,14,B2B2C mentioned,2
+Digit Insurance,FinTech / Payments,2016,"B2C + B2B2C — consumers, businesses and distribution partners",3000,20,15,20,10,5,4,Valid,Valid,10,Valid,8.006700845440367,14,B2B2C mentioned,2
+Niyo,FinTech / Payments,2015,"B2C — consumers, especially digital banking/travel users",500,20,5,15,15,5,4,Valid,Valid,11,Valid,6.2166061010848646,14,B2C-led label,3
+Zaggle,FinTech / Payments,2011,"B2B — enterprises, finance/HR teams and employees",1000,20,20,20,15,5,4,Valid,Valid,15,Valid,6.90875477931522,14,B2B-led label,1
+EnKash,FinTech / Payments,2018,"B2B — businesses, finance teams and corporate-card users",300,16,20,20,15,5,4,Valid,Valid,8,Valid,5.707110264748875,14,B2B-led label,1
+Karza Technologies,FinTech / Payments,2015,"B2B — banks, NBFCs, fintechs, insurers and enterprises",500,20,20,20,15,5,4,Valid,Valid,11,Valid,6.2166061010848646,14,B2B-led label,1

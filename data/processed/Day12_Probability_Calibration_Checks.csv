@@ -1,0 +1,19 @@
+Model_ID,Test_Records,Observed_Positive_Rate,Mean_Predicted_Probability,Brier_Score,Log_Loss,Data_Status,Interpretation
+DAY7_QUOTE_LOGISTIC,51,0.47058823529411764,0.47318227388400347,0.22881213181941584,0.649862760089796,Synthetic demonstration only,Descriptive evaluation only. Lower Brier score and log loss are generally better when comparing models on the same data and target. These metrics alone do not establish calibration.
+DAY7_QUOTE_LOGISTIC,4,0.5,0.1656960859703443,,,Synthetic demonstration only,Calibration bin 1: 0.0 to 0.2. Small bin counts can make the observed rate unstable.
+DAY7_QUOTE_LOGISTIC,14,0.2857142857142857,0.3058971620735549,,,Synthetic demonstration only,Calibration bin 2: 0.2 to 0.4. Small bin counts can make the observed rate unstable.
+DAY7_QUOTE_LOGISTIC,20,0.4,0.4861159523089972,,,Synthetic demonstration only,Calibration bin 3: 0.4 to 0.6. Small bin counts can make the observed rate unstable.
+DAY7_QUOTE_LOGISTIC,11,0.7272727272727273,0.700252927676087,,,Synthetic demonstration only,Calibration bin 4: 0.6 to 0.8. Small bin counts can make the observed rate unstable.
+DAY7_QUOTE_LOGISTIC,2,1.0,0.8809250522780645,,,Synthetic demonstration only,Calibration bin 5: 0.8 to 1.0. Small bin counts can make the observed rate unstable.
+DAY9_PROJECT_DELAY_RF,60,0.9166666666666666,0.653228179852253,0.14045974873656233,0.444065967765434,Synthetic demonstration only,Descriptive evaluation only. Lower Brier score and log loss are generally better when comparing models on the same data and target. These metrics alone do not establish calibration.
+DAY9_PROJECT_DELAY_RF,2,0.5,0.16070877292346114,,,Synthetic demonstration only,Calibration bin 1: 0.0 to 0.2. Small bin counts can make the observed rate unstable.
+DAY9_PROJECT_DELAY_RF,7,0.7142857142857143,0.3166677127484801,,,Synthetic demonstration only,Calibration bin 2: 0.2 to 0.4. Small bin counts can make the observed rate unstable.
+DAY9_PROJECT_DELAY_RF,9,0.7777777777777778,0.4894965224581928,,,Synthetic demonstration only,Calibration bin 3: 0.4 to 0.6. Small bin counts can make the observed rate unstable.
+DAY9_PROJECT_DELAY_RF,24,1.0,0.688161938874808,,,Synthetic demonstration only,Calibration bin 4: 0.6 to 0.8. Small bin counts can make the observed rate unstable.
+DAY9_PROJECT_DELAY_RF,18,1.0,0.874124667829432,,,Synthetic demonstration only,Calibration bin 5: 0.8 to 1.0. Small bin counts can make the observed rate unstable.
+DAY9_EFFORT_OVERRUN_LOGISTIC,60,0.45,0.4432932894070641,0.14806037667900737,0.44419116376397383,Synthetic demonstration only,Descriptive evaluation only. Lower Brier score and log loss are generally better when comparing models on the same data and target. These metrics alone do not establish calibration.
+DAY9_EFFORT_OVERRUN_LOGISTIC,20,0.1,0.0813060735310254,,,Synthetic demonstration only,Calibration bin 1: 0.0 to 0.2. Small bin counts can make the observed rate unstable.
+DAY9_EFFORT_OVERRUN_LOGISTIC,7,0.2857142857142857,0.26246716647116297,,,Synthetic demonstration only,Calibration bin 2: 0.2 to 0.4. Small bin counts can make the observed rate unstable.
+DAY9_EFFORT_OVERRUN_LOGISTIC,12,0.5,0.5199571786975168,,,Synthetic demonstration only,Calibration bin 3: 0.4 to 0.6. Small bin counts can make the observed rate unstable.
+DAY9_EFFORT_OVERRUN_LOGISTIC,11,0.6363636363636364,0.6973692655340508,,,Synthetic demonstration only,Calibration bin 4: 0.6 to 0.8. Small bin counts can make the observed rate unstable.
+DAY9_EFFORT_OVERRUN_LOGISTIC,10,1.0,0.922365766326043,,,Synthetic demonstration only,Calibration bin 5: 0.8 to 1.0. Small bin counts can make the observed rate unstable.

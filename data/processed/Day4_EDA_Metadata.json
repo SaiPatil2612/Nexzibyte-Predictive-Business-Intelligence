@@ -1,0 +1,12 @@
+{
+  "input_file": "data\\clean\\Day3_Prospects_Clean.csv",
+  "output_file": "data\\processed\\Day4_EDA_Summary.csv",
+  "input_sha256_before": "51033824dac2bf6ba22efaeb3597dd999b73d4b9c3b652df8d1af64ce05a038b",
+  "input_sha256_after": "51033824dac2bf6ba22efaeb3597dd999b73d4b9c3b652df8d1af64ce05a038b",
+  "input_unchanged_during_run": true,
+  "record_count": 180,
+  "column_count": 28,
+  "summary_metric_rows": 88,
+  "generated_by": "notebooks/day4_eda.py",
+  "interpretation_note": "Descriptive EDA only. No conversion outcomes are available to validate predictive performance. Low-signal thresholds are exploratory."
+}

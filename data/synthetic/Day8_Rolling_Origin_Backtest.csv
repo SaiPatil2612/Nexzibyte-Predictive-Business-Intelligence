@@ -1,0 +1,37 @@
+Forecast_Month,Forecast_Origin_Month,Training_Observations,Model,Actual_Revenue,Forecast_Revenue,Absolute_Error,Squared_Error,Data_Status
+2025-01-01,2024-12-01,24,Naive Forecast,679150.17,654364.12,24786.05,614348274.6,Synthetic demonstration only
+2025-01-01,2024-12-01,24,Seasonal Naive Forecast,679150.17,597980.92,81169.25,6588447145.56,Synthetic demonstration only
+2025-01-01,2024-12-01,24,Linear Trend Forecast,679150.17,674008.73,5141.44,26434455.57,Synthetic demonstration only
+2025-02-01,2025-01-01,25,Naive Forecast,714435.99,679150.17,35285.82,1245089093.07,Synthetic demonstration only
+2025-02-01,2025-01-01,25,Seasonal Naive Forecast,714435.99,662817.24,51618.75,2664495351.56,Synthetic demonstration only
+2025-02-01,2025-01-01,25,Linear Trend Forecast,714435.99,681437.7,32998.29,1088887373.91,Synthetic demonstration only
+2025-03-01,2025-02-01,26,Naive Forecast,767270.55,714435.99,52834.56,2791490730.39,Synthetic demonstration only
+2025-03-01,2025-02-01,26,Seasonal Naive Forecast,767270.55,669326.55,97944.0,9593027136.0,Synthetic demonstration only
+2025-03-01,2025-02-01,26,Linear Trend Forecast,767270.55,693168.16,74102.39,5491164687.09,Synthetic demonstration only
+2025-04-01,2025-03-01,27,Naive Forecast,776963.32,767270.55,9692.77,93949790.27,Synthetic demonstration only
+2025-04-01,2025-03-01,27,Seasonal Naive Forecast,776963.32,644221.23,132742.09,17620462457.57,Synthetic demonstration only
+2025-04-01,2025-03-01,27,Linear Trend Forecast,776963.32,711082.13,65881.19,4340331792.69,Synthetic demonstration only
+2025-05-01,2025-04-01,28,Naive Forecast,779683.25,776963.32,2719.93,7398019.2,Synthetic demonstration only
+2025-05-01,2025-04-01,28,Seasonal Naive Forecast,779683.25,682363.79,97319.46,9471077294.69,Synthetic demonstration only
+2025-05-01,2025-04-01,28,Linear Trend Forecast,779683.25,728017.68,51665.57,2669331607.28,Synthetic demonstration only
+2025-06-01,2025-05-01,29,Naive Forecast,769924.63,779683.25,9758.62,95230664.3,Synthetic demonstration only
+2025-06-01,2025-05-01,29,Seasonal Naive Forecast,769924.63,632233.52,137691.11,18958841773.03,Synthetic demonstration only
+2025-06-01,2025-05-01,29,Linear Trend Forecast,769924.63,743154.72,26769.91,716628136.79,Synthetic demonstration only
+2025-07-01,2025-06-01,30,Naive Forecast,804249.43,769924.63,34324.8,1178191895.04,Synthetic demonstration only
+2025-07-01,2025-06-01,30,Seasonal Naive Forecast,804249.43,670353.51,133895.92,17928117392.65,Synthetic demonstration only
+2025-07-01,2025-06-01,30,Linear Trend Forecast,804249.43,755091.11,49158.32,2416540205.99,Synthetic demonstration only
+2025-08-01,2025-07-01,31,Naive Forecast,710807.55,804249.43,93441.88,8731384937.93,Synthetic demonstration only
+2025-08-01,2025-07-01,31,Seasonal Naive Forecast,710807.55,625502.22,85305.33,7276999326.41,Synthetic demonstration only
+2025-08-01,2025-07-01,31,Linear Trend Forecast,710807.55,769973.9,59166.35,3500657193.72,Synthetic demonstration only
+2025-09-01,2025-08-01,32,Naive Forecast,697331.45,710807.55,13476.1,181605271.21,Synthetic demonstration only
+2025-09-01,2025-08-01,32,Seasonal Naive Forecast,697331.45,611152.86,86178.59,7426749374.39,Synthetic demonstration only
+2025-09-01,2025-08-01,32,Linear Trend Forecast,697331.45,771415.22,74083.77,5488404580.11,Synthetic demonstration only
+2025-10-01,2025-09-01,33,Naive Forecast,689586.82,697331.45,7744.63,59979293.84,Synthetic demonstration only
+2025-10-01,2025-09-01,33,Seasonal Naive Forecast,689586.82,597572.11,92014.71,8466706856.38,Synthetic demonstration only
+2025-10-01,2025-09-01,33,Linear Trend Forecast,689586.82,770936.3,81349.48,6617738500.23,Synthetic demonstration only
+2025-11-01,2025-10-01,34,Naive Forecast,747178.11,689586.82,57591.29,3316756683.86,Synthetic demonstration only
+2025-11-01,2025-10-01,34,Seasonal Naive Forecast,747178.11,669374.97,77803.14,6053328593.86,Synthetic demonstration only
+2025-11-01,2025-10-01,34,Linear Trend Forecast,747178.11,769470.54,22292.43,496952583.13,Synthetic demonstration only
+2025-12-01,2025-11-01,35,Naive Forecast,788869.17,747178.11,41691.06,1738144483.92,Synthetic demonstration only
+2025-12-01,2025-11-01,35,Seasonal Naive Forecast,788869.17,654364.12,134505.05,18091608475.5,Synthetic demonstration only
+2025-12-01,2025-11-01,35,Linear Trend Forecast,788869.17,774617.44,14251.73,203111856.86,Synthetic demonstration only

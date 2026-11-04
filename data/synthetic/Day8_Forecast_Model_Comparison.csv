@@ -1,0 +1,4 @@
+Model,MAE,RMSE,Data_Status
+Naive Forecast,48010.65500000003,53655.155559674036,Synthetic demonstration only
+Seasonal Naive Forecast,101617.12333333335,104278.08176472948,Synthetic demonstration only
+Linear Trend Forecast,53156.2487279693,59105.72075401433,Synthetic demonstration only

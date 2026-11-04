@@ -1,0 +1,3 @@
+Model,Test_Records,Accuracy,Won_Precision,Won_Recall,Won_F1,ROC_AUC
+Logistic Regression,51,0.5882352941176471,0.5714285714285714,0.5,0.5333333333333333,0.662037037037037
+Majority Class Baseline,51,0.5294117647058824,0.0,0.0,0.0,0.5

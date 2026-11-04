@@ -1,0 +1,3 @@
+Model,Brier Score,Log Loss,ROC_AUC,Average_Precision,Evaluation
+Balanced Logistic Regression - Uncalibrated,0.24246237989419936,0.6783519156270981,0.5172413793103449,0.42215391455678675,Synthetic demonstration only
+Balanced Logistic Regression - Sigmoid Calibrated,0.2319764199888373,0.6571829528502614,0.5086206896551724,0.38496263583337886,Synthetic demonstration only

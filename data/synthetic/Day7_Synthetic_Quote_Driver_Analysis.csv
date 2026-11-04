@@ -1,0 +1,5 @@
+Feature,Standardized_Coefficient,Direction,Absolute_Coefficient,Dataset
+Discount_Pct,0.5313737319435382,Positive,0.5313737319435382,Synthetic demonstration only
+Engagement_Count,0.5303437310246266,Positive,0.5303437310246266,Synthetic demonstration only
+Revision_Count,-0.38359771382202534,Negative,0.38359771382202534,Synthetic demonstration only
+Quote_Value,-0.22988281225865484,Negative,0.22988281225865484,Synthetic demonstration only

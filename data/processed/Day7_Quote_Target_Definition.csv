@@ -1,0 +1,5 @@
+Status,Proposed Definition,Training Treatment,Validation Status
+Won,Quotation accepted with a recorded acceptance date,Include after business validation,Pending business validation
+Lost,Quotation explicitly recorded as lost,Include after business validation,Pending business validation
+Pending,Quotation remains open or awaits a decision,Exclude from binary win/loss training,Pending business validation
+Unknown,Status or supporting evidence is insufficient,Flag for review; exclude from training,Pending business validation

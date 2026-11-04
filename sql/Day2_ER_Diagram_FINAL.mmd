@@ -1,0 +1,157 @@
+```mermaid
+erDiagram
+    COMPANY ||--o{ PROSPECT_ASSESSMENT : has
+    COMPANY ||--o{ COMPANY_VALIDATION : receives
+    COMPANY ||--o{ LEAD_OPPORTUNITY : generates
+    SERVICE_CATALOGUE o|--o{ LEAD_OPPORTUNITY : requested_for
+    LEAD_OPPORTUNITY ||--o{ QUOTATION : receives
+    SERVICE_CATALOGUE o|--o{ QUOTATION : quotes
+    QUOTATION o|--o{ PROJECT : may_convert_to
+    COMPANY ||--o{ PROJECT : owns
+    SERVICE_CATALOGUE o|--o{ PROJECT : delivers
+    COMPANY ||--o{ CUSTOMER_ACTIVITY : has
+    COMPANY ||--o{ FINANCE_INVOICE : billed
+    PROJECT o|--o{ FINANCE_INVOICE : supports
+    PROJECT ||--o{ RESOURCE_DELIVERY : staffed
+
+    COMPANY {
+        bigint company_id PK
+        text company_name
+        text website_domain
+        text industry_subindustry
+        text hq_location
+        smallint founded_year
+        text products_services
+        text target_customer_segment
+        text technology_signals
+        text recent_business_signal
+        text decision_maker_text
+        text source_text
+        date date_verified
+        integer employee_count
+        text website_validation_status
+        text employee_validation_status
+        text duplicate_flag
+        text data_quality_status
+        timestamptz created_at
+    }
+
+    PROSPECT_ASSESSMENT {
+        bigint assessment_id PK
+        bigint company_id FK
+        date assessed_at
+        smallint company_size_score
+        smallint b2b_fit_score
+        smallint technology_signal_score
+        smallint business_need_score
+        smallint recent_business_signal_score
+        smallint decision_maker_score
+        smallint prospect_score
+        text prospect_classification
+        text scoring_model_version
+    }
+
+    COMPANY_VALIDATION {
+        bigint validation_id PK
+        bigint company_id FK
+        text validation_type
+        text validation_status
+        text evidence_reference
+        date validated_at
+        text reviewer
+        text notes
+    }
+
+    SERVICE_CATALOGUE {
+        bigint service_id PK
+        text service_name
+        text category
+        text typical_client_segment
+        text technology_tags
+        text project_complexity_band
+        boolean is_active
+    }
+
+    LEAD_OPPORTUNITY {
+        bigint lead_id PK
+        bigint company_id FK
+        bigint service_id FK
+        text source
+        date created_date
+        text stage
+        numeric budget
+        text owner
+        integer interactions
+        integer meetings
+        numeric response_time_hours
+        date last_activity
+        text outcome
+    }
+
+    QUOTATION {
+        bigint quote_id PK
+        bigint lead_id FK
+        bigint service_id FK
+        date quote_date
+        numeric quote_value
+        numeric discount_amount
+        integer revision_count
+        numeric response_time_hours
+        text status
+        date accepted_date
+        text loss_reason
+    }
+
+    PROJECT {
+        bigint project_id PK
+        bigint quote_id FK
+        bigint company_id FK
+        bigint service_id FK
+        date start_date
+        date target_end_date
+        date actual_end_date
+        numeric planned_effort_hours
+        numeric actual_effort_hours
+        integer change_requests
+        text dependencies
+        text milestones
+        integer defects
+        text status
+        numeric revenue
+    }
+
+    CUSTOMER_ACTIVITY {
+        bigint activity_id PK
+        bigint company_id FK
+        date interaction_date
+        text channel
+        text interaction_type
+        integer meeting_count
+        integer support_count
+        text renewal_expansion_event
+    }
+
+    FINANCE_INVOICE {
+        bigint invoice_id PK
+        bigint project_id FK
+        bigint company_id FK
+        date invoice_date
+        numeric billed_amount
+        numeric collected_amount
+        date due_date
+        integer payment_delay_days
+        numeric outstanding_amount
+    }
+
+    RESOURCE_DELIVERY {
+        bigint resource_delivery_id PK
+        bigint project_id FK
+        text role
+        numeric planned_hours
+        numeric actual_hours
+        numeric allocation_pct
+        numeric utilization_pct
+        date start_date
+        date end_date
+    }
+```

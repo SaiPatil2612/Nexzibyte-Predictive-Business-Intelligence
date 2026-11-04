@@ -1,0 +1,20 @@
+Source Feature,Business Definition,Feature Type,Modeling Notes
+Company Name,Company identifier used for reporting and traceability.,Identifier,Exclude from predictive model inputs.
+Industry / Sub-industry,Industry category supplied in the cleaned source dataset.,Categorical,"Preserve the original label. Industry Code is nominal, not ordinal."
+Founded Year (Standardized),Standardized company founding year.,Numeric,Check plausibility and source evidence.
+Target Customers / B2B or B2C,Source description of the company's target customer market.,Categorical/text,Preserve original wording. Derived grouping is heuristic.
+Employee Count (Numeric),Reported numeric employee count.,Numeric,Employee evidence remains incomplete for four Needs Review records.
+Company Size Score,Existing company-size component score.,Existing score,Existing scoring input. Derivation and predictive validity require review.
+B2B Fit Score,Existing B2B-fit component score.,Existing score,Existing scoring input. Derivation and predictive validity require review.
+Technology Signal Score,Existing technology component score.,Existing score,Existing scoring input. Derivation and predictive validity require review.
+Business Need Score,Existing business-need component score.,Existing score,Existing scoring input. Derivation and predictive validity require review.
+Recent Business Signal Score,Existing recent-business-signal component score.,Existing score,No historical time series is available to calculate a trend.
+Decision-Maker Score,Existing decision-maker component score.,Existing score,Existing scoring input. Derivation and predictive validity require review.
+Data Quality Status,Indicates source-record quality-review status.,Quality flag,Audit/filtering only by default. Exclude from predictive features unless justified.
+Employee Validation,Indicates employee-data validation status.,Quality flag,Audit/review only by default. It is not a conversion outcome.
+Company Age (Years),Approximate company age using the configured reference year.,Derived numeric,Calculated as reference year minus founding year; exact founding date is unavailable.
+Company Age Validation,Flags missing or implausible founding years.,Validation flag,Audit-only field; not a conversion outcome.
+Employee Count Log1p,Natural logarithm of one plus employee count.,Derived numeric,Reduces right-skew. Does not validate the employee-count evidence.
+Industry Code,Integer identifier for each distinct sorted industry label.,Categorical encoding,Nominal code only. Never interpret code magnitude as industry ranking.
+Customer Segment Group,Heuristic grouping based on wording in the customer-market label.,Derived categorical,Text-derived only; does not verify actual market positioning.
+Customer Segment Code,Integer identifier for each distinct sorted derived segment group.,Categorical encoding,Nominal code only. Never interpret code magnitude as a market ranking.

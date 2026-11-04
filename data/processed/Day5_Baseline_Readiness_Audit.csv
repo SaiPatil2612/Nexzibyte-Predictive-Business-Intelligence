@@ -1,0 +1,7 @@
+Check,Result,Status
+Feature dataset rows,180,PASS
+Feature dataset columns,15,PASS
+Missing values in feature dataset,0,PASS
+Observed outcome target columns,None found,BLOCKED
+Conversion prediction baseline,Cannot evaluate without an observed conversion label,BLOCKED
+Original Prospect Score and Classification,Existing score-derived fields; not validated conversion outcomes,EXCLUDE AS CONVERSION TARGETS

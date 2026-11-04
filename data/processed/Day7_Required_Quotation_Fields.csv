@@ -1,0 +1,11 @@
+Field,Business Purpose,Requirement
+Quote ID,Unique quotation identifier,Required
+Company ID,Company linked to the quotation,Required
+Quote Date,Date the quotation was issued,Required
+Quote Value,Quoted monetary value,Required
+Discount,Discount offered,If available
+Revision Count,Number of quotation revisions,If available
+Engagement History,Meetings and interactions before quote,If available
+Quote Status,"Accepted, lost, pending, or other defined status",Required
+Accepted Date,"Date accepted, where applicable",If available
+Loss Reason,Recorded reason for a lost quotation,If available

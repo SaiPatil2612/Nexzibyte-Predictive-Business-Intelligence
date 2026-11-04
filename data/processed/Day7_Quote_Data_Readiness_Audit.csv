@@ -1,0 +1,3 @@
+Dataset,Path,Records,Quotation records available,Verified win/loss outcome available,Model readiness
+Original prospect dataset,D:\Nexzibyte Solution\nexzibyte-predictive-bi\data\raw\NexziByte_Final_Scored.csv,180,No,No,Not ready for real quote-win modeling
+Cleaned prospect dataset,D:\Nexzibyte Solution\nexzibyte-predictive-bi\data\clean\Day3_Prospects_Clean.csv,180,No,No,Not ready for real quote-win modeling

@@ -1,0 +1,10 @@
+Check,Result,Interpretation,Status
+Quotation records,300,Synthetic quotation records only,Informational
+Unique companies,300,Distinct company identifiers,Informational
+Companies with multiple quotations,0,Needed to observe repeat quotation activity,Limitation
+Earliest quotation date,2026-01-02,Beginning of available synthetic history,Informational
+Latest quotation date,2026-08-27,End of available synthetic history,Informational
+Days between latest quote and assessment date,53,Elapsed time; not proof of churn,Informational
+Verified churn outcomes available,No,No verified retention or churn labels supplied,Limitation
+Complete future 180-day observation window,No,Assessment date 2026-10-19 would require coverage through 2027-04-17,Limitation
+Recency used to construct inactivity target,Yes,Do not use the same recency calculation to predict its own target,Leakage warning

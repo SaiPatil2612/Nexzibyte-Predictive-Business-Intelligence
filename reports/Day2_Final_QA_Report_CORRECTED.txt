@@ -1,0 +1,561 @@
+﻿# NexziByte Predictive Business Intelligence & Growth Engine
+## Day 2 — Final Quality Assurance and Documentation Reconciliation Report
+
+**Report date:** 29 October 2026  
+**Project:** NexziByte Predictive Business Intelligence & Growth Engine  
+**Verification database:** `nexzibyte_bi_test`  
+**Database engine:** PostgreSQL 18.6  
+**Overall status:** Technical verification completed; final documentation reconciliation and business validation pending  
+**Day 2 sign-off:** PENDING
+
+---
+
+## 1. Executive Summary
+
+Day 2 focused on designing and verifying the PostgreSQL database schema, preparing source-field mappings, documenting data lineage and entity availability, reviewing the ER diagram, and preparing the analytical dimensional model.
+
+Technical verification of the PostgreSQL schema has been completed in the test database.
+
+The verification confirmed:
+
+- 10 expected database tables.
+- 111 columns across the 10 tables.
+- 13 foreign-key relationships.
+- 10 primary-key constraints.
+- 16 explicitly named CHECK constraints.
+- 2 UNIQUE constraints.
+- 8 additional indexes.
+- No structural mismatches in the reviewed tables, columns, relationships, constraints, and indexes.
+- All 10 tables contain zero records.
+- The original source CSV was not intentionally modified during the reported verification.
+
+The data dictionary, lineage documentation, entity-data availability assessment, ER diagram, and analytical dimensional model have been prepared.
+
+However, successful technical verification does not establish that business rules have been approved, historical source data is available, the analytical model has been implemented, or the solution is production-ready.
+
+**Day 2 remains open until the outstanding checks have been completed or explicitly accepted as pending by the appropriate reviewer.**
+
+---
+
+## 2. Scope of Day 2 Verification
+
+The Day 2 review covered:
+
+1. PostgreSQL schema structure.
+2. Table and column definitions.
+3. Primary keys and identity columns.
+4. Foreign-key relationships.
+5. CHECK and UNIQUE constraints.
+6. Additional indexes.
+7. Data dictionary preparation.
+8. Data lineage and source-trust documentation.
+9. Entity-data availability.
+10. ER diagram and schema consistency.
+11. Proposed analytical dimensional model.
+12. Cross-document consistency and sign-off readiness.
+
+The work completed so far is primarily technical and documentation-focused.
+
+Business-rule validation and formal stakeholder approval remain separate requirements.
+
+---
+
+## 3. PostgreSQL Schema Verification
+
+### 3.1 Database Details
+
+- Database: `nexzibyte_bi_test`
+- Database engine: PostgreSQL 18.6
+- Final schema: `sql\schema\Day2_PostgreSQL_Schema_FINAL.sql`
+
+The schema was executed in the test database and structurally verified.
+
+### 3.2 Table and Column Verification
+
+The following 10 tables were verified:
+
+| Table | Verified column count |
+|---|---:|
+| `company` | 19 |
+| `prospect_assessment` | 12 |
+| `company_validation` | 8 |
+| `service_catalogue` | 7 |
+| `lead_opportunity` | 13 |
+| `quotation` | 11 |
+| `project` | 15 |
+| `customer_activity` | 8 |
+| `finance_invoice` | 9 |
+| `resource_delivery` | 9 |
+| **Total** | **111** |
+
+The reviewed column properties included:
+
+- Column names.
+- Data types.
+- Nullability.
+- Default values.
+- Identity-column properties.
+
+No mismatches were found in the reviewed structural properties.
+
+### 3.3 Primary Keys
+
+All 10 tables have primary keys.
+
+Identity primary keys use `GENERATED ALWAYS AS IDENTITY` where defined in the finalized schema.
+
+The expected primary-key columns were verified against database metadata.
+
+### 3.4 Foreign-Key Relationships
+
+The following 13 foreign-key relationships were verified:
+
+1. `company_validation.company_id` → `company.company_id`
+2. `customer_activity.company_id` → `company.company_id`
+3. `finance_invoice.company_id` → `company.company_id`
+4. `finance_invoice.project_id` → `project.project_id`
+5. `lead_opportunity.company_id` → `company.company_id`
+6. `lead_opportunity.service_id` → `service_catalogue.service_id`
+7. `project.company_id` → `company.company_id`
+8. `project.quote_id` → `quotation.quote_id`
+9. `project.service_id` → `service_catalogue.service_id`
+10. `prospect_assessment.company_id` → `company.company_id`
+11. `quotation.lead_id` → `lead_opportunity.lead_id`
+12. `quotation.service_id` → `service_catalogue.service_id`
+13. `resource_delivery.project_id` → `project.project_id`
+
+All 13 expected foreign-key relationships matched the reviewed database structure.
+
+### 3.5 CHECK Constraints
+
+The schema contains 16 explicitly named CHECK constraints covering:
+
+- Company employee count and founding year.
+- Prospect assessment score.
+- Lead budget, interactions, and meetings.
+- Quotation value, discount, and revision count.
+- Project effort and defects.
+- Customer activity counts.
+- Invoice amounts.
+- Resource hours, allocation percentage, and utilization percentage.
+
+Database metadata reports 40 CHECK constraints when automatically generated NOT NULL checks are included.
+
+These counts describe different categories and should not be interpreted as a discrepancy.
+
+**Important:** Structural verification confirms that the constraints exist. It does not establish that every threshold and formula has been approved as a business rule.
+
+### 3.6 UNIQUE Constraints
+
+Two UNIQUE constraints were verified:
+
+- `uq_company_name` on `company.company_name`
+- `uq_service_name` on `service_catalogue.service_name`
+
+Their business suitability, including the implications of company or service naming variations, should be confirmed during business validation.
+
+### 3.7 Additional Indexes
+
+The following eight additional indexes were verified:
+
+1. `ix_activity_company_date`
+2. `ix_invoice_company_date`
+3. `ix_lead_company`
+4. `ix_lead_stage`
+5. `ix_project_company`
+6. `ix_prospect_assessment_company`
+7. `ix_quotation_lead`
+8. `ix_resource_project`
+
+The database contains 20 indexes in total when primary-key and UNIQUE indexes are included.
+
+### 3.8 Table Record Counts
+
+All 10 tables contain zero records.
+
+This is consistent with a schema-verification environment in which the tables have been created but no data has been loaded.
+
+It does not demonstrate that data ingestion, ETL processing, or reporting outputs have been tested.
+
+### 3.9 Additional Structural Checks
+
+The following defaults were verified:
+
+- `service_catalogue.is_active`: NOT NULL, default `true`.
+- `company.created_at`: TIMESTAMPTZ, NOT NULL, default `CURRENT_TIMESTAMP`.
+
+The SQL header distinguishes technical verification from business validation and production readiness.
+
+**Technical schema verification: COMPLETE.**
+
+**Business-rule validation: PENDING.**
+
+---
+
+## 4. Data Dictionary Verification
+
+**Artifact:** `data\data_dictionary\Day2_Data_Dictionary_FINAL.csv`
+
+**Verified dimensions:** 25 data rows and 10 columns.
+
+The dictionary documents source fields and their proposed database mappings, including data types and validation metadata.
+
+The file is stored in `data\data_dictionary`, not `data\processed`.
+
+The following final comparison remains to be completed and recorded:
+
+1. Confirm that the documented target column names match the final SQL schema.
+2. Compare proposed data types with the SQL column definitions.
+3. Review required and optional field definitions.
+4. Check that validation rules are documented and traceable to requirements.
+5. Identify source fields that do not have a corresponding target column, and target fields that do not originate from the supplied CSV.
+6. Confirm that fields absent from the source are not represented as though they have been populated or verified.
+
+The file's dimensions have been verified. The complete field-by-field comparison has not yet been recorded as complete.
+
+**Data dictionary status: PREPARED; FINAL SCHEMA COMPARISON PENDING.**
+
+---
+
+## 5. Data Lineage and Source-Trust Documentation
+
+**Artifact:** `data\processed\Day2_Data_Lineage_Source_Trust_FINAL.csv`
+
+**Verified dimensions:** 11 data rows and 9 columns.
+
+The earlier incorrect reference to 16 data rows and 7 columns has been corrected. The current verified dimensions are 11 × 9.
+
+The documented lineage covers:
+
+1. Company identity.
+2. Website.
+3. Industry and location.
+4. Company size.
+5. Technology and business signals.
+6. Decision-maker information.
+7. Scoring components.
+8. Prospect Score.
+9. Prospect classification.
+10. Verification date.
+11. Availability of historical leads, quotations, projects, and finance data.
+
+The current source does not establish the availability of complete historical records for leads, quotations, projects, invoices, customer activity, or resource delivery.
+
+These records must not be fabricated or inferred as available simply because corresponding database tables have been designed.
+
+The lineage document still needs a content review to determine whether descriptions of score calculation, classification, and date verification overlap unnecessarily.
+
+Any necessary clarification must preserve the actual source facts and must not change or fabricate source data.
+
+**Lineage status: PREPARED; FINAL CONTENT REVIEW PENDING.**
+
+---
+
+## 6. Entity Data Availability
+
+**Artifact:** `data\processed\Day2_Entity_Data_Availability_FINAL.csv`
+
+This document records the availability and limitations of source data for the proposed business entities.
+
+The review indicates that company-validation and service-catalogue information may be partial.
+
+The supplied scored-prospect CSV does not establish the availability of complete historical records for:
+
+- Lead outcomes.
+- Quotations.
+- Project delivery.
+- Invoices and financial transactions.
+- Customer activities.
+- Resource allocation and delivery.
+
+The existence of database tables represents a proposed data structure. It does not prove that suitable source records exist.
+
+Before implementing historical reporting, the project should identify the relevant source systems, confirm data ownership, establish the required historical period, and verify data quality and access.
+
+**Entity-data availability status: DOCUMENTED; SOURCE CONFIRMATION PENDING.**
+
+---
+
+## 7. PostgreSQL Schema and ER Diagram
+
+### 7.1 Finalized Schema
+
+**Artifact:** `sql\schema\Day2_PostgreSQL_Schema_FINAL.sql`
+
+The finalized schema has been executed in the test database and structurally verified.
+
+It defines the operational entities required by the current proposed design.
+
+The schema should not be treated as production-approved until the remaining business, security, data, and operational requirements have been reviewed.
+
+### 7.2 ER Diagram
+
+**Artifact:** `sql\Day2_ER_Diagram_FINAL.mmd`
+
+The ER diagram represents the 10 tables and 13 foreign-key relationships in the finalized schema.
+
+A final cross-artifact review must confirm that the diagram matches the finalized SQL schema.
+
+### 7.3 Older Draft Files
+
+The following older design files remain in the project:
+
+- `sql\schema\Day2_PostgreSQL_Schema_Draft.sql`
+- `sql\Day2_Target_Architecture_Draft.sql`
+- `sql\schema\Day2_Target_Architecture_Draft.sql`
+
+These files represent earlier or reduced proposed designs and differ from the finalized schema.
+
+Retain them for traceability. Do not execute or merge them automatically into the finalized design.
+
+**Schema status: TECHNICAL VERIFICATION COMPLETE.**
+
+**ER diagram status: PREPARED; FINAL CROSS-ARTIFACT REVIEW PENDING.**
+
+---
+
+## 8. Analytical Dimensional Model
+
+**Artifact:** `reports\Day2_Analytical_Dimensional_Model_FINAL_CORRECTED.md`
+
+The dimensional model is a proposed analytical design. It has not been implemented or populated as a dimensional warehouse.
+
+The proposed dimensions are:
+
+- `dim_company`
+- `dim_service`
+- `dim_date`
+- `dim_source`
+- `dim_owner`
+
+The proposed fact tables are:
+
+- `fact_prospect_assessment`
+- `fact_lead_outcome`
+- `fact_quotation`
+- `fact_project_delivery`
+- `fact_customer_activity`
+- `fact_invoice`
+- `fact_resource_allocation`
+
+These names describe the proposed analytical model, not verified production tables.
+
+Before implementation, the project should confirm:
+
+1. Business questions and reporting requirements.
+2. The grain of each fact table.
+3. Business keys and surrogate-key requirements.
+4. Historical tracking requirements.
+5. Date-dimension requirements.
+6. Treatment of missing and late-arriving records.
+7. Source-to-target transformation rules.
+8. Reconciliation and data-quality checks.
+9. Approved KPI definitions.
+10. Which dimensions and fact tables are required for the initial delivery.
+
+**Dimensional model status: PROPOSED DESIGN PREPARED; IMPLEMENTATION AND POPULATION NOT COMPLETED.**
+
+---
+
+## 9. Day 1 Documentation and Business Validation
+
+**Relevant artifact:** `NexziByte_Day1_01_BRD_Lite_Project_Charter_FINAL_CORRECTED.docx`
+
+The previously established Day 1 status is:
+
+**Documentation complete; business validation pending.**
+
+This status must remain unchanged unless formal evidence establishes that business validation has subsequently been completed.
+
+A statement that approval was reported is not sufficient to establish formal sign-off when the approver, approval date, decision, and supporting evidence have not been confirmed.
+
+The outstanding action is to review the BRD-lite and project charter and correct any wording that implies business approval without supporting evidence.
+
+If formal validation has not occurred, the document must continue to state that business validation is pending.
+
+**Day 1 documentation status: COMPLETE.**
+
+**Day 1 business-validation status: PENDING.**
+
+---
+
+## 10. Source CSV Integrity
+
+The original scored-prospect source CSV was not intentionally modified during the reported Day 2 verification process.
+
+The recorded SHA-256 baseline is:
+
+`1e9db0d66d4bb45c2cbf0113a6d2207a9d0fed3c3275895c8e2a59473b29e68b`
+
+The original source file should remain immutable.
+
+Any future cleaning, transformation, or feature engineering should use an appropriately versioned derived file rather than overwriting the original.
+
+The final source-integrity check is to calculate the current hash and compare it with the recorded baseline.
+
+**Source CSV status: NOT INTENTIONALLY MODIFIED; FINAL HASH COMPARISON PENDING.**
+
+---
+
+## 11. Day 2 Deliverable Register
+
+| Deliverable | Actual location | Status |
+|---|---|---|
+| Final PostgreSQL schema | `sql\schema\Day2_PostgreSQL_Schema_FINAL.sql` | Executed in test database; structural verification complete |
+| ER diagram | `sql\Day2_ER_Diagram_FINAL.mmd` | Prepared; final cross-artifact review pending |
+| Final data dictionary | `data\data_dictionary\Day2_Data_Dictionary_FINAL.csv` | 25 data rows and 10 columns; final schema comparison pending |
+| Data lineage/source trust | `data\processed\Day2_Data_Lineage_Source_Trust_FINAL.csv` | 11 data rows and 9 columns; final content review pending |
+| Entity data availability | `data\processed\Day2_Entity_Data_Availability_FINAL.csv` | Prepared; source confirmation pending |
+| Analytical dimensional model | `reports\Day2_Analytical_Dimensional_Model_FINAL_CORRECTED.md` | Proposed design; implementation and population not completed |
+| Final QA report | `reports\Day2_Final_QA_Report_CORRECTED.txt` | Revised report; final review pending |
+| Day 1 BRD-lite/project charter | `NexziByte_Day1_01_BRD_Lite_Project_Charter_FINAL_CORRECTED.docx` | Documentation complete; business validation pending |
+
+The listed locations reflect the recorded project paths. Verify the Day 1 document's full relative path if required.
+
+Older drafts and the pre-correction QA report backup should be retained for traceability.
+
+---
+
+## 12. Outstanding Business and Technical Decisions
+
+### 12.1 KPI and Business-Rule Definitions
+
+Confirm and document approved definitions for:
+
+- Prospect score calculation.
+- Prospect classification thresholds.
+- Lead-stage taxonomy.
+- Lead conversion and outcome definitions.
+- Revenue recognition.
+- Payment delay and overdue-invoice calculations.
+- Churn and renewal definitions.
+- Quotation discount and revision rules.
+- Project delivery and completion measures.
+- Resource allocation and utilization measures.
+- Customer activity measures.
+
+Any unapproved rule must be identified as proposed or pending confirmation.
+
+### 12.2 Data Availability and Ownership
+
+Confirm:
+
+- Source systems for historical lead outcomes.
+- Source systems for quotations and revisions.
+- Project and delivery records.
+- Invoice and payment records.
+- Customer activity records.
+- Resource allocation and utilization records.
+- Source owners and data-access permissions.
+- Required historical coverage.
+- Data-quality expectations and reconciliation methods.
+
+### 12.3 Analytical Design
+
+Confirm:
+
+- Reporting requirements.
+- Fact-table grain.
+- Dimension requirements.
+- Historical tracking.
+- Transformation logic.
+- KPI calculation logic.
+- Reconciliation between operational and analytical outputs.
+
+### 12.4 Formal Validation and Approval
+
+Record the required business review, approver, approval date, decision, and supporting evidence.
+
+Do not record business approval merely because technical SQL checks passed.
+
+---
+
+## 13. Final Reconciliation Checklist
+
+### Technical verification
+
+- [x] Final SQL schema executed in the test database.
+- [x] Ten expected tables verified.
+- [x] 111 columns verified.
+- [x] Thirteen foreign-key relationships verified.
+- [x] Ten primary keys verified.
+- [x] Sixteen explicitly named CHECK constraints verified.
+- [x] Two UNIQUE constraints verified.
+- [x] Eight additional indexes verified.
+- [x] All ten tables confirmed empty.
+- [x] SQL header updated to reflect actual technical verification status.
+
+### Documentation and data integrity
+
+- [x] Data dictionary exists at its verified location.
+- [x] Data dictionary dimensions verified as 25 data rows and 10 columns.
+- [x] Lineage file dimensions verified as 11 data rows and 9 columns.
+- [x] Incorrect lineage dimensions corrected in this report.
+- [x] Dimensional model identified as a proposed design.
+- [x] Original source CSV was not intentionally modified.
+- [ ] Final data dictionary comparison against the SQL schema completed and recorded.
+- [ ] Lineage descriptions reviewed for overlap and clarity.
+- [ ] ER diagram cross-checked against the finalized schema.
+- [ ] All remaining report paths and filenames verified.
+- [ ] Current source CSV hash rechecked against the recorded baseline.
+
+### Business validation and sign-off
+
+- [ ] KPI definitions approved.
+- [ ] Business-rule thresholds and formulas approved.
+- [ ] Source-system availability and ownership confirmed.
+- [ ] Required business-validation evidence recorded.
+- [ ] Day 1 BRD-lite status confirmed as documentation complete with business validation pending, unless new formal evidence supports an updated status.
+- [ ] Required reviewer or mentor sign-off obtained, if applicable.
+- [ ] Final Day 2 sign-off decision documented.
+
+---
+
+## 14. Overall Assessment
+
+### Completed
+
+- PostgreSQL schema implementation in the test database.
+- Structural verification of the reviewed schema.
+- Verification of keys, relationships, constraints, and indexes.
+- Preparation of the data dictionary.
+- Preparation of source-lineage and source-trust documentation.
+- Preparation of the entity-data availability assessment.
+- Preparation of the ER diagram.
+- Preparation of the proposed analytical dimensional model.
+- Correction of the SQL header wording.
+- Correction of the lineage dimensions in this report.
+- Identification of documentation path and filename inconsistencies.
+
+### Pending
+
+- Final cross-artifact documentation reconciliation.
+- Final schema-to-dictionary review.
+- Final ER-diagram consistency review.
+- Final lineage-content review.
+- Verification of all report paths and filenames.
+- Final source CSV hash comparison.
+- Business-rule and KPI validation.
+- Confirmation of historical data sources.
+- Formal business-validation evidence and approval, where required.
+- Final Day 2 sign-off.
+
+### Final Status
+
+**Technical verification: COMPLETE.**
+
+**Documentation preparation: COMPLETE, WITH FINAL RECONCILIATION PENDING.**
+
+**Business validation: PENDING.**
+
+**Production readiness: NOT ESTABLISHED.**
+
+**Day 2 sign-off: PENDING.**
+
+**Day 3 checks: NOT STARTED.**
+
+Day 2 should be signed off only after outstanding checks have been completed or explicitly documented as accepted exceptions by the appropriate reviewer. No historical records, business approvals, or source-data availability should be assumed without supporting evidence.
+
+---
+
+**End of Report**

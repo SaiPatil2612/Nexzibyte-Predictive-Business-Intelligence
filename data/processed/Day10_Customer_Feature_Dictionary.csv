@@ -1,0 +1,12 @@
+Feature,Definition,Source,Feature_Type,Use_In_Model
+Company_ID,Identifier linking quotations to a company,Synthetic quotation dataset,Identifier,No
+Quote_Count,Number of recorded quotations per company,Quote_ID,Frequency,Potentially
+Total_Quoted_Value,Sum of quotation values per company; not actual collected revenue,Quote_Value,Monetary proxy,Potentially
+Last_Quote_Date,Most recent recorded quotation date,Quote_Date,Recency,Potentially
+Recency_Days,Days from the last quotation to the assessment date,Quote_Date and Assessment_Date,Recency,Potentially
+Inactive_180D,Provisional indicator that no quotation was recorded in the preceding 180 days; not a verified churn label,Quote_Date and Assessment_Date,Target,Target only
+Inactive_180D_Proxy,1 when Recency_Days is at least 180; otherwise 0. Synthetic inactivity proxy.,Recency_Days,Derived proxy,Descriptive segmentation only
+High_Quote_Value_Flag,1 when Total_Quoted_Value is at or above the 75th percentile of the current dataset,Total_Quoted_Value,Derived flag,Descriptive segmentation only
+Recent_Activity_Flag,1 when Recency_Days is 90 or fewer; otherwise 0,Recency_Days,Derived flag,Descriptive segmentation only
+Won_Quote_Flag,1 when at least one recorded quotation has Won status; otherwise 0,Won_Quote_Count,Derived flag,Expansion-candidate rule
+Customer_Segment,"Mutually exclusive rule-based segment. Priority: Inactive Quote, High Quote Value, Recent Activity, then Standard / Review.","Inactive_180D_Proxy, High_Quote_Value_Flag, Recent_Activity_Flag",Descriptive segment,Descriptive analysis only

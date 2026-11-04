@@ -1,0 +1,11 @@
+Entity,Availability,Evidence in current source,Limitation / next action
+Company,Partially available,180 company/prospect snapshot records,Operational company attributes exist; some source evidence and contact normalization absent
+Prospect assessment,Available in snapshot,"Six component scores, total score, classification",Score arithmetic matches all 180 rows; predictive validity and thresholds unverified
+Company validation,Partially available,Website/employee/data-quality flags,"Validation evidence, reviewer and history not supplied"
+Lead / Opportunity,Not available as distinct entity,"No lead IDs, stages, outcomes, or historical lead records",Identify CRM/source system; do not infer outcomes from prospect score
+Quotation,Not available,No quotation records or statuses,Identify quote system and quote grain
+Project,Not available,"No project dates, effort, status or delivery records",Identify project management source and project key
+Customer activity,Not available,No dated interaction/support/renewal history,Identify CRM/support/customer success sources
+Finance / Invoice,Not available,"No invoices, collections, due dates or costs",Identify finance/ERP source and financial definitions
+Resource / Delivery,Not available,No resource allocation or actual effort records,Identify resource/project timesheet source
+Service catalogue,Partially represented,Products/Services descriptive text,"Structured service IDs, categories and approved catalogue not supplied"

@@ -1,0 +1,5 @@
+Metric,Value
+Total quotations,300
+IQR flagged quotations,0
+Business-rule flagged quotations,144
+Quotations with no business-rule flags,156

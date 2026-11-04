@@ -1,0 +1,26 @@
+Field Name,Current Data Type,Missing Values,Distinct Values
+Company Name,object,0,180
+Website / Domain,object,0,180
+Industry / Sub-industry,object,0,19
+"HQ Location (City, State)",object,0,41
+Founded Year (Standardized),int64,0,24
+Products/Services,object,0,180
+Target Customers / B2B or B2C,object,0,173
+Technology Signals,object,0,180
+Recent Business Signal,object,0,176
+Decision-Maker (Name + Title),object,0,180
+Source(s) Used,object,0,180
+Date Verified,object,0,1
+Employee Count (Numeric),int64,0,30
+Website Validation,object,0,1
+Employee Validation,object,0,2
+Duplicate Flag,object,0,1
+Data Quality Status,object,0,2
+Company Size Score,int64,0,3
+B2B Fit Score,int64,0,3
+Technology Signal Score,int64,0,5
+Business Need Score,int64,0,3
+Recent Business Signal Score,int64,0,2
+Decision-Maker Score,int64,0,2
+Prospect Score,int64,0,29
+Prospect Classification,object,0,2

@@ -1,0 +1,256 @@
+Quote_ID,Company_ID,Quote_Date,Quote_Value,Discount_Pct,Revision_Count,Engagement_Count,Quote_Status,Accepted_Date,Loss_Reason,Synthetic_Data_Flag,Data_Use,Won_Flag
+SYN-Q-0001,SYN-C-0001,2026-07-31,58286,20.66,0,9,Won,2026-10-10,,True,Demonstration only; not real business data,1
+SYN-Q-0003,SYN-C-0003,2026-02-23,332467,3.51,1,10,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0005,SYN-C-0005,2026-01-17,225012,2.71,2,7,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0006,SYN-C-0006,2026-03-10,431420,16.81,3,9,Won,2026-06-05,,True,Demonstration only; not real business data,1
+SYN-Q-0007,SYN-C-0007,2026-06-19,56683,7.03,2,5,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0008,SYN-C-0008,2026-03-14,353224,16.49,0,7,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0009,SYN-C-0009,2026-06-25,112712,18.17,1,3,Won,2026-08-18,,True,Demonstration only; not real business data,1
+SYN-Q-0010,SYN-C-0010,2026-07-29,60676,19.22,0,10,Won,2026-09-06,,True,Demonstration only; not real business data,1
+SYN-Q-0011,SYN-C-0011,2026-01-16,270342,2.69,3,6,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0012,SYN-C-0012,2026-01-06,488177,22.9,0,8,Won,2026-03-21,,True,Demonstration only; not real business data,1
+SYN-Q-0013,SYN-C-0013,2026-08-14,371840,5.76,1,5,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0014,SYN-C-0014,2026-05-05,384153,0.94,4,9,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0015,SYN-C-0015,2026-05-02,362977,13.87,2,0,Won,2026-05-07,,True,Demonstration only; not real business data,1
+SYN-Q-0016,SYN-C-0016,2026-04-22,396241,9.27,2,1,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0017,SYN-C-0017,2026-04-15,263915,20.74,2,5,Won,2026-05-30,,True,Demonstration only; not real business data,1
+SYN-Q-0018,SYN-C-0018,2026-06-15,77135,20.21,3,8,Won,2026-07-27,,True,Demonstration only; not real business data,1
+SYN-Q-0020,SYN-C-0020,2026-02-09,233437,23.82,3,4,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0021,SYN-C-0021,2026-05-31,257671,7.27,4,7,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0022,SYN-C-0022,2026-06-10,194837,12.88,2,6,Won,2026-08-03,,True,Demonstration only; not real business data,1
+SYN-Q-0023,SYN-C-0023,2026-01-28,103536,6.4,2,10,Won,2026-04-06,,True,Demonstration only; not real business data,1
+SYN-Q-0024,SYN-C-0024,2026-04-01,464481,23.4,0,7,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0025,SYN-C-0025,2026-07-09,394060,4.12,1,4,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0026,SYN-C-0026,2026-05-29,327275,1.12,4,10,Won,2026-07-03,,True,Demonstration only; not real business data,1
+SYN-Q-0027,SYN-C-0027,2026-02-02,210171,10.88,2,1,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0028,SYN-C-0028,2026-01-10,414040,24.81,1,10,Won,2026-02-13,,True,Demonstration only; not real business data,1
+SYN-Q-0029,SYN-C-0029,2026-05-20,279533,22.29,2,1,Won,2026-07-16,,True,Demonstration only; not real business data,1
+SYN-Q-0030,SYN-C-0030,2026-04-21,230056,18.72,2,3,Won,2026-05-02,,True,Demonstration only; not real business data,1
+SYN-Q-0031,SYN-C-0031,2026-08-19,233473,22.27,2,9,Won,2026-10-26,,True,Demonstration only; not real business data,1
+SYN-Q-0032,SYN-C-0032,2026-05-06,125211,22.34,3,8,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0033,SYN-C-0033,2026-08-12,59686,12.97,1,10,Won,2026-11-01,,True,Demonstration only; not real business data,1
+SYN-Q-0034,SYN-C-0034,2026-02-21,283974,7.9,3,8,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0035,SYN-C-0035,2026-04-18,445627,19.3,2,7,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0036,SYN-C-0036,2026-02-03,45951,16.54,4,3,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0037,SYN-C-0037,2026-05-18,431272,9.34,0,0,Won,2026-05-28,,True,Demonstration only; not real business data,1
+SYN-Q-0038,SYN-C-0038,2026-02-15,416401,2.36,0,1,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0039,SYN-C-0039,2026-04-29,149228,18.67,2,3,Won,2026-07-25,,True,Demonstration only; not real business data,1
+SYN-Q-0040,SYN-C-0040,2026-03-24,321357,6.56,2,0,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0041,SYN-C-0041,2026-02-14,95136,23.42,3,5,Won,2026-02-28,,True,Demonstration only; not real business data,1
+SYN-Q-0042,SYN-C-0042,2026-01-24,382673,6.02,2,8,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0043,SYN-C-0043,2026-05-03,354754,3.07,4,10,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0044,SYN-C-0044,2026-08-16,186945,20.78,2,5,Won,2026-09-21,,True,Demonstration only; not real business data,1
+SYN-Q-0045,SYN-C-0045,2026-02-17,47941,3.83,0,9,Won,2026-03-16,,True,Demonstration only; not real business data,1
+SYN-Q-0046,SYN-C-0046,2026-04-08,485789,4.48,0,10,Won,2026-05-08,,True,Demonstration only; not real business data,1
+SYN-Q-0047,SYN-C-0047,2026-02-23,231158,14.98,4,9,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0048,SYN-C-0048,2026-07-14,448164,21.86,0,5,Won,2026-08-01,,True,Demonstration only; not real business data,1
+SYN-Q-0049,SYN-C-0049,2026-04-10,343791,4.91,4,3,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0050,SYN-C-0050,2026-08-22,392516,7.76,1,10,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0052,SYN-C-0052,2026-01-20,109399,24.3,1,4,Won,2026-03-30,,True,Demonstration only; not real business data,1
+SYN-Q-0053,SYN-C-0053,2026-05-20,191494,12.52,3,0,Won,2026-06-05,,True,Demonstration only; not real business data,1
+SYN-Q-0054,SYN-C-0054,2026-06-06,241360,3.6,2,8,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0056,SYN-C-0056,2026-07-29,36244,5.74,3,0,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0058,SYN-C-0058,2026-06-02,89830,16.94,3,6,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0059,SYN-C-0059,2026-03-28,375538,3.05,4,5,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0060,SYN-C-0060,2026-04-13,346279,12.66,2,8,Won,2026-05-16,,True,Demonstration only; not real business data,1
+SYN-Q-0061,SYN-C-0061,2026-02-02,462426,17.36,0,2,Won,2026-04-14,,True,Demonstration only; not real business data,1
+SYN-Q-0062,SYN-C-0062,2026-04-14,376210,14.53,2,10,Won,2026-05-28,,True,Demonstration only; not real business data,1
+SYN-Q-0063,SYN-C-0063,2026-03-29,192822,4.99,4,4,Won,2026-06-10,,True,Demonstration only; not real business data,1
+SYN-Q-0064,SYN-C-0064,2026-01-09,484243,20.1,1,9,Won,2026-01-23,,True,Demonstration only; not real business data,1
+SYN-Q-0065,SYN-C-0065,2026-02-19,214262,17.89,4,2,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0068,SYN-C-0068,2026-08-27,194673,3.09,1,4,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0069,SYN-C-0069,2026-04-25,52026,23.19,4,10,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0070,SYN-C-0070,2026-08-19,242735,9.94,0,0,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0071,SYN-C-0071,2026-06-08,400905,7.52,1,4,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0073,SYN-C-0073,2026-02-18,239526,16.57,2,10,Won,2026-03-02,,True,Demonstration only; not real business data,1
+SYN-Q-0074,SYN-C-0074,2026-06-19,78012,23.89,2,7,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0075,SYN-C-0075,2026-05-11,347942,7.16,0,8,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0076,SYN-C-0076,2026-03-14,245717,23.12,1,7,Won,2026-05-28,,True,Demonstration only; not real business data,1
+SYN-Q-0077,SYN-C-0077,2026-05-06,175145,0.62,0,7,Won,2026-07-09,,True,Demonstration only; not real business data,1
+SYN-Q-0078,SYN-C-0078,2026-08-05,125051,13.88,2,8,Won,2026-08-19,,True,Demonstration only; not real business data,1
+SYN-Q-0079,SYN-C-0079,2026-04-04,288783,15.85,1,0,Won,2026-04-11,,True,Demonstration only; not real business data,1
+SYN-Q-0080,SYN-C-0080,2026-01-11,339860,2.65,2,9,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0081,SYN-C-0081,2026-03-16,471049,3.51,2,8,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0082,SYN-C-0082,2026-08-13,227019,10.48,3,8,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0084,SYN-C-0084,2026-07-20,418849,14.9,3,8,Won,2026-09-29,,True,Demonstration only; not real business data,1
+SYN-Q-0085,SYN-C-0085,2026-08-07,320436,23.33,2,4,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0086,SYN-C-0086,2026-01-29,354629,20.11,3,0,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0087,SYN-C-0087,2026-03-09,62155,11.68,3,9,Won,2026-03-19,,True,Demonstration only; not real business data,1
+SYN-Q-0088,SYN-C-0088,2026-01-15,166498,19.62,1,2,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0090,SYN-C-0090,2026-07-20,418646,2.73,3,6,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0091,SYN-C-0091,2026-08-13,226080,20.74,1,2,Won,2026-09-23,,True,Demonstration only; not real business data,1
+SYN-Q-0092,SYN-C-0092,2026-02-07,405311,19.92,2,9,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0093,SYN-C-0093,2026-06-23,423221,5.82,0,4,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0094,SYN-C-0094,2026-05-09,202927,13.27,2,0,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0095,SYN-C-0095,2026-01-17,450573,15.15,2,10,Won,2026-02-08,,True,Demonstration only; not real business data,1
+SYN-Q-0096,SYN-C-0096,2026-08-08,154839,21.69,3,5,Won,2026-09-08,,True,Demonstration only; not real business data,1
+SYN-Q-0097,SYN-C-0097,2026-07-29,131185,15.08,2,2,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0098,SYN-C-0098,2026-05-17,346011,10.31,1,7,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0099,SYN-C-0099,2026-06-19,323830,9.35,4,5,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0100,SYN-C-0100,2026-04-06,82780,10.65,2,0,Won,2026-04-27,,True,Demonstration only; not real business data,1
+SYN-Q-0102,SYN-C-0102,2026-04-17,111955,21.69,3,4,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0104,SYN-C-0104,2026-01-16,18570,6.2,4,9,Won,2026-02-16,,True,Demonstration only; not real business data,1
+SYN-Q-0105,SYN-C-0105,2026-02-11,401469,5.92,0,6,Won,2026-03-19,,True,Demonstration only; not real business data,1
+SYN-Q-0109,SYN-C-0109,2026-07-09,243710,1.66,3,4,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0110,SYN-C-0110,2026-02-15,357005,14.86,2,9,Won,2026-03-09,,True,Demonstration only; not real business data,1
+SYN-Q-0112,SYN-C-0112,2026-03-10,393654,20.62,3,3,Won,2026-05-31,,True,Demonstration only; not real business data,1
+SYN-Q-0113,SYN-C-0113,2026-02-17,284489,7.76,1,8,Won,2026-04-26,,True,Demonstration only; not real business data,1
+SYN-Q-0114,SYN-C-0114,2026-08-20,237574,3.6,1,9,Won,2026-09-05,,True,Demonstration only; not real business data,1
+SYN-Q-0116,SYN-C-0116,2026-01-23,290840,4.14,4,3,Won,2026-02-21,,True,Demonstration only; not real business data,1
+SYN-Q-0117,SYN-C-0117,2026-06-11,33072,7.12,1,7,Won,2026-06-28,,True,Demonstration only; not real business data,1
+SYN-Q-0118,SYN-C-0118,2026-07-28,82801,3.84,2,6,Won,2026-08-22,,True,Demonstration only; not real business data,1
+SYN-Q-0119,SYN-C-0119,2026-01-31,134058,2.89,0,4,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0121,SYN-C-0121,2026-05-10,228213,1.38,0,1,Won,2026-05-22,,True,Demonstration only; not real business data,1
+SYN-Q-0122,SYN-C-0122,2026-07-19,339176,4.37,0,3,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0123,SYN-C-0123,2026-01-31,332398,1.33,4,6,Won,2026-03-12,,True,Demonstration only; not real business data,1
+SYN-Q-0124,SYN-C-0124,2026-08-23,243482,14.78,4,9,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0125,SYN-C-0125,2026-05-29,429714,17.02,4,9,Won,2026-06-26,,True,Demonstration only; not real business data,1
+SYN-Q-0126,SYN-C-0126,2026-07-22,289140,9.84,0,2,Won,2026-10-08,,True,Demonstration only; not real business data,1
+SYN-Q-0127,SYN-C-0127,2026-03-28,53410,7.95,0,7,Won,2026-05-01,,True,Demonstration only; not real business data,1
+SYN-Q-0128,SYN-C-0128,2026-08-15,386025,12.61,1,0,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0129,SYN-C-0129,2026-05-31,293681,21.88,2,7,Won,2026-06-22,,True,Demonstration only; not real business data,1
+SYN-Q-0130,SYN-C-0130,2026-01-31,322839,21.28,1,3,Won,2026-03-21,,True,Demonstration only; not real business data,1
+SYN-Q-0131,SYN-C-0131,2026-08-10,289206,1.09,2,4,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0134,SYN-C-0134,2026-05-11,286216,6.23,1,8,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0135,SYN-C-0135,2026-04-04,400533,14.28,0,5,Won,2026-06-27,,True,Demonstration only; not real business data,1
+SYN-Q-0136,SYN-C-0136,2026-05-11,162416,10.41,3,10,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0137,SYN-C-0137,2026-08-20,307377,1.23,4,7,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0138,SYN-C-0138,2026-08-04,29946,9.34,0,3,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0140,SYN-C-0140,2026-08-22,226808,2.54,4,4,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0141,SYN-C-0141,2026-04-16,491629,20.84,3,5,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0142,SYN-C-0142,2026-06-19,119073,1.3,4,1,Won,2026-09-06,,True,Demonstration only; not real business data,1
+SYN-Q-0143,SYN-C-0143,2026-07-03,149126,23.12,2,1,Won,2026-08-29,,True,Demonstration only; not real business data,1
+SYN-Q-0144,SYN-C-0144,2026-04-26,213136,2.48,1,6,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0145,SYN-C-0145,2026-04-20,496443,21.09,3,2,Won,2026-06-02,,True,Demonstration only; not real business data,1
+SYN-Q-0146,SYN-C-0146,2026-04-20,428901,22.57,0,10,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0147,SYN-C-0147,2026-07-27,31826,24.49,1,9,Won,2026-09-05,,True,Demonstration only; not real business data,1
+SYN-Q-0148,SYN-C-0148,2026-04-03,128460,20.05,3,7,Won,2026-06-23,,True,Demonstration only; not real business data,1
+SYN-Q-0149,SYN-C-0149,2026-03-09,413512,19.49,3,8,Won,2026-05-23,,True,Demonstration only; not real business data,1
+SYN-Q-0150,SYN-C-0150,2026-03-28,43276,16.06,0,6,Won,2026-06-18,,True,Demonstration only; not real business data,1
+SYN-Q-0151,SYN-C-0151,2026-02-16,430001,19.47,2,0,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0152,SYN-C-0152,2026-04-04,151471,3.36,1,4,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0153,SYN-C-0153,2026-01-28,460062,13.4,2,5,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0154,SYN-C-0154,2026-01-22,157393,12.86,4,10,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0157,SYN-C-0157,2026-05-17,76246,9.63,2,3,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0158,SYN-C-0158,2026-07-07,285161,15.99,3,1,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0159,SYN-C-0159,2026-06-23,259933,6.66,2,1,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0160,SYN-C-0160,2026-04-18,395191,3.49,1,4,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0161,SYN-C-0161,2026-02-16,498112,11.95,3,0,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0162,SYN-C-0162,2026-08-12,337192,10.42,3,0,Won,2026-09-24,,True,Demonstration only; not real business data,1
+SYN-Q-0163,SYN-C-0163,2026-07-20,213455,5.81,0,3,Won,2026-09-01,,True,Demonstration only; not real business data,1
+SYN-Q-0164,SYN-C-0164,2026-05-27,212098,9.19,3,2,Won,2026-07-11,,True,Demonstration only; not real business data,1
+SYN-Q-0165,SYN-C-0165,2026-01-21,217710,9.16,3,6,Won,2026-03-07,,True,Demonstration only; not real business data,1
+SYN-Q-0166,SYN-C-0166,2026-01-09,409800,8.19,1,0,Won,2026-02-15,,True,Demonstration only; not real business data,1
+SYN-Q-0167,SYN-C-0167,2026-03-17,170789,9.49,4,3,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0168,SYN-C-0168,2026-02-07,95982,17.14,3,4,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0169,SYN-C-0169,2026-07-26,177131,7.42,1,10,Won,2026-10-03,,True,Demonstration only; not real business data,1
+SYN-Q-0172,SYN-C-0172,2026-08-23,58673,12.02,1,3,Won,2026-10-12,,True,Demonstration only; not real business data,1
+SYN-Q-0173,SYN-C-0173,2026-07-16,389203,8.21,3,4,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0174,SYN-C-0174,2026-02-22,365345,13.39,2,4,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0175,SYN-C-0175,2026-04-03,352934,21.21,2,9,Won,2026-07-02,,True,Demonstration only; not real business data,1
+SYN-Q-0176,SYN-C-0176,2026-05-04,239010,16.31,0,10,Won,2026-05-14,,True,Demonstration only; not real business data,1
+SYN-Q-0177,SYN-C-0177,2026-06-09,362774,20.11,3,10,Won,2026-08-13,,True,Demonstration only; not real business data,1
+SYN-Q-0178,SYN-C-0178,2026-08-13,93216,13.32,0,8,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0179,SYN-C-0179,2026-07-29,451802,15.82,2,5,Won,2026-08-16,,True,Demonstration only; not real business data,1
+SYN-Q-0181,SYN-C-0181,2026-01-10,469955,18.37,4,10,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0182,SYN-C-0182,2026-02-26,88871,5.06,4,3,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0183,SYN-C-0183,2026-05-16,256205,17.37,4,3,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0184,SYN-C-0184,2026-01-12,352716,21.52,2,9,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0185,SYN-C-0185,2026-03-27,255379,3.3,1,4,Won,2026-06-25,,True,Demonstration only; not real business data,1
+SYN-Q-0187,SYN-C-0187,2026-08-12,95614,2.38,4,6,Won,2026-10-12,,True,Demonstration only; not real business data,1
+SYN-Q-0188,SYN-C-0188,2026-01-16,199795,18.14,4,3,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0189,SYN-C-0189,2026-02-05,130801,2.11,3,9,Won,2026-02-16,,True,Demonstration only; not real business data,1
+SYN-Q-0191,SYN-C-0191,2026-02-05,346595,3.44,2,3,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0192,SYN-C-0192,2026-05-17,320687,23.97,2,5,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0193,SYN-C-0193,2026-03-29,309490,20.02,4,10,Won,2026-04-27,,True,Demonstration only; not real business data,1
+SYN-Q-0195,SYN-C-0195,2026-03-04,480451,19.57,1,2,Won,2026-03-16,,True,Demonstration only; not real business data,1
+SYN-Q-0196,SYN-C-0196,2026-05-09,57510,19.88,0,6,Won,2026-06-15,,True,Demonstration only; not real business data,1
+SYN-Q-0197,SYN-C-0197,2026-06-08,181156,23.65,4,6,Won,2026-08-15,,True,Demonstration only; not real business data,1
+SYN-Q-0198,SYN-C-0198,2026-05-31,72232,6.33,3,7,Won,2026-06-25,,True,Demonstration only; not real business data,1
+SYN-Q-0199,SYN-C-0199,2026-07-11,179388,14.75,0,0,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0200,SYN-C-0200,2026-02-18,481521,2.38,2,3,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0204,SYN-C-0204,2026-05-29,354358,14.31,0,3,Won,2026-07-25,,True,Demonstration only; not real business data,1
+SYN-Q-0206,SYN-C-0206,2026-07-27,143947,13.07,0,1,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0207,SYN-C-0207,2026-05-30,385652,19.1,1,3,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0208,SYN-C-0208,2026-08-16,485051,19.98,4,9,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0209,SYN-C-0209,2026-01-31,142809,12.3,4,0,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0210,SYN-C-0210,2026-03-25,392694,14.99,0,3,Won,2026-05-15,,True,Demonstration only; not real business data,1
+SYN-Q-0212,SYN-C-0212,2026-01-22,362692,2.99,1,6,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0213,SYN-C-0213,2026-04-24,397668,2.93,0,2,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0214,SYN-C-0214,2026-02-24,232940,2.19,1,8,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0215,SYN-C-0215,2026-04-08,372406,16.45,0,6,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0216,SYN-C-0216,2026-04-16,147037,10.47,2,8,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0217,SYN-C-0217,2026-05-30,53438,19.36,4,6,Won,2026-06-17,,True,Demonstration only; not real business data,1
+SYN-Q-0218,SYN-C-0218,2026-08-15,61749,16.78,2,4,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0219,SYN-C-0219,2026-07-23,231806,8.34,3,9,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0220,SYN-C-0220,2026-04-01,452763,22.46,2,5,Won,2026-05-28,,True,Demonstration only; not real business data,1
+SYN-Q-0221,SYN-C-0221,2026-03-20,76874,19.06,0,10,Won,2026-06-14,,True,Demonstration only; not real business data,1
+SYN-Q-0222,SYN-C-0222,2026-07-04,236051,6.76,0,10,Won,2026-09-11,,True,Demonstration only; not real business data,1
+SYN-Q-0223,SYN-C-0223,2026-01-30,356456,9.1,1,6,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0224,SYN-C-0224,2026-05-10,113146,7.86,1,7,Won,2026-05-16,,True,Demonstration only; not real business data,1
+SYN-Q-0226,SYN-C-0226,2026-02-13,163389,3.69,4,8,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0227,SYN-C-0227,2026-05-28,407201,23.4,4,7,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0229,SYN-C-0229,2026-02-14,280250,9.58,2,2,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0230,SYN-C-0230,2026-06-06,100734,18.24,3,8,Won,2026-08-06,,True,Demonstration only; not real business data,1
+SYN-Q-0231,SYN-C-0231,2026-02-11,239655,13.82,2,5,Won,2026-03-01,,True,Demonstration only; not real business data,1
+SYN-Q-0232,SYN-C-0232,2026-06-11,430458,23.4,3,2,Won,2026-08-17,,True,Demonstration only; not real business data,1
+SYN-Q-0233,SYN-C-0233,2026-02-08,24469,19.51,3,1,Won,2026-02-24,,True,Demonstration only; not real business data,1
+SYN-Q-0234,SYN-C-0234,2026-04-15,382882,11.98,3,6,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0235,SYN-C-0235,2026-07-13,253990,9.41,3,3,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0236,SYN-C-0236,2026-02-24,363940,24.67,0,1,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0237,SYN-C-0237,2026-07-04,336700,17.94,3,4,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0238,SYN-C-0238,2026-06-23,224565,23.78,1,7,Won,2026-09-14,,True,Demonstration only; not real business data,1
+SYN-Q-0239,SYN-C-0239,2026-08-05,164703,2.96,3,3,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0240,SYN-C-0240,2026-02-10,319245,21.26,2,10,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0241,SYN-C-0241,2026-06-21,83008,15.93,4,8,Won,2026-07-04,,True,Demonstration only; not real business data,1
+SYN-Q-0242,SYN-C-0242,2026-08-13,298288,3.05,1,5,Won,2026-09-09,,True,Demonstration only; not real business data,1
+SYN-Q-0243,SYN-C-0243,2026-07-03,60927,14.71,4,10,Won,2026-09-02,,True,Demonstration only; not real business data,1
+SYN-Q-0244,SYN-C-0244,2026-02-15,330176,17.15,4,4,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0245,SYN-C-0245,2026-07-17,319942,0.31,1,1,Won,2026-09-29,,True,Demonstration only; not real business data,1
+SYN-Q-0246,SYN-C-0246,2026-01-26,55955,11.36,2,0,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0248,SYN-C-0248,2026-04-30,216667,7.38,3,10,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0249,SYN-C-0249,2026-05-08,396640,11.46,3,8,Won,2026-08-03,,True,Demonstration only; not real business data,1
+SYN-Q-0250,SYN-C-0250,2026-05-05,35182,11.06,4,1,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0251,SYN-C-0251,2026-01-08,102036,7.55,1,3,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0252,SYN-C-0252,2026-05-02,254586,22.96,2,0,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0253,SYN-C-0253,2026-08-13,106289,19.53,2,0,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0254,SYN-C-0254,2026-04-15,174983,2.76,4,2,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0255,SYN-C-0255,2026-03-08,335391,24.93,1,6,Won,2026-03-09,,True,Demonstration only; not real business data,1
+SYN-Q-0256,SYN-C-0256,2026-08-27,85094,21.98,2,0,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0257,SYN-C-0257,2026-01-24,343686,7.1,0,10,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0258,SYN-C-0258,2026-04-27,65150,20.92,4,5,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0260,SYN-C-0260,2026-04-25,300008,24.98,1,5,Won,2026-06-27,,True,Demonstration only; not real business data,1
+SYN-Q-0261,SYN-C-0261,2026-08-10,399840,16.64,2,8,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0262,SYN-C-0262,2026-04-12,97737,16.25,2,3,Won,2026-06-21,,True,Demonstration only; not real business data,1
+SYN-Q-0263,SYN-C-0263,2026-08-22,160496,2.26,4,0,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0266,SYN-C-0266,2026-05-23,296815,6.02,0,1,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0267,SYN-C-0267,2026-02-27,231813,3.58,0,6,Won,2026-05-08,,True,Demonstration only; not real business data,1
+SYN-Q-0269,SYN-C-0269,2026-06-22,312039,4.96,4,8,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0270,SYN-C-0270,2026-06-03,301594,22.77,4,0,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0271,SYN-C-0271,2026-05-27,157955,16.41,3,9,Won,2026-08-02,,True,Demonstration only; not real business data,1
+SYN-Q-0272,SYN-C-0272,2026-01-13,26059,0.9,3,7,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0274,SYN-C-0274,2026-08-24,479902,1.29,0,2,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0275,SYN-C-0275,2026-01-05,217805,15.15,0,10,Won,2026-01-25,,True,Demonstration only; not real business data,1
+SYN-Q-0276,SYN-C-0276,2026-04-23,248917,20.04,1,3,Won,2026-06-23,,True,Demonstration only; not real business data,1
+SYN-Q-0277,SYN-C-0277,2026-04-29,241547,5.96,1,5,Won,2026-04-30,,True,Demonstration only; not real business data,1
+SYN-Q-0278,SYN-C-0278,2026-08-04,394627,21.24,0,4,Won,2026-09-25,,True,Demonstration only; not real business data,1
+SYN-Q-0279,SYN-C-0279,2026-03-09,46503,1.43,1,2,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0280,SYN-C-0280,2026-04-25,55124,20.02,0,4,Won,2026-05-28,,True,Demonstration only; not real business data,1
+SYN-Q-0281,SYN-C-0281,2026-06-22,148786,23.19,3,1,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0282,SYN-C-0282,2026-01-15,251029,19.3,4,0,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0283,SYN-C-0283,2026-07-12,340495,17.45,3,3,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0284,SYN-C-0284,2026-07-17,252993,20.95,2,1,Won,2026-08-05,,True,Demonstration only; not real business data,1
+SYN-Q-0285,SYN-C-0285,2026-06-22,228966,1.0,2,4,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0286,SYN-C-0286,2026-06-05,469846,5.04,1,9,Won,2026-08-25,,True,Demonstration only; not real business data,1
+SYN-Q-0287,SYN-C-0287,2026-06-29,93094,3.12,0,1,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0288,SYN-C-0288,2026-07-07,292288,12.61,2,0,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0289,SYN-C-0289,2026-08-05,277989,18.63,2,1,Lost,,Requirements mismatch,True,Demonstration only; not real business data,0
+SYN-Q-0290,SYN-C-0290,2026-04-13,244642,15.75,0,5,Won,2026-06-22,,True,Demonstration only; not real business data,1
+SYN-Q-0292,SYN-C-0292,2026-06-03,144483,3.88,1,5,Won,2026-06-12,,True,Demonstration only; not real business data,1
+SYN-Q-0293,SYN-C-0293,2026-02-16,477580,18.37,0,0,Lost,,Price,True,Demonstration only; not real business data,0
+SYN-Q-0294,SYN-C-0294,2026-07-25,175811,4.83,3,3,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0295,SYN-C-0295,2026-07-04,279327,6.77,2,4,Lost,,Competitor,True,Demonstration only; not real business data,0
+SYN-Q-0296,SYN-C-0296,2026-06-01,267526,17.75,3,4,Lost,,Timing,True,Demonstration only; not real business data,0
+SYN-Q-0297,SYN-C-0297,2026-03-14,427143,24.51,3,6,Won,2026-03-29,,True,Demonstration only; not real business data,1
+SYN-Q-0298,SYN-C-0298,2026-03-25,227872,15.29,4,8,Won,2026-04-28,,True,Demonstration only; not real business data,1
+SYN-Q-0299,SYN-C-0299,2026-04-15,153011,1.36,4,5,Won,2026-05-07,,True,Demonstration only; not real business data,1

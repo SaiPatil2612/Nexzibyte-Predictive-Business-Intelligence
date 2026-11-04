@@ -1,0 +1,16 @@
+Source Feature,Business Definition,Feature Type,Modeling Notes
+Company Name,Company identifier for reporting,Identifier,Exclude from model inputs
+Industry / Sub-industry,Company's industry category,Categorical,Encode before modeling
+Founded Year (Standardized),Standardized company founding year,Numeric,Available; check plausibility
+Target Customers / B2B or B2C,Describes the target customer market,Categorical/text,Standardize or encode
+Employee Count (Numeric),Reported numeric employee count,Numeric,Check employee evidence and validation
+Company Size Score,Existing company-size component score,Numeric score,Existing score; document its derivation
+B2B Fit Score,Existing B2B-fit component score,Numeric score,Existing score; document its derivation
+Technology Signal Score,Existing technology component score,Numeric score,Existing score; document its derivation
+Business Need Score,Existing business-need component score,Numeric score,Existing score; document its derivation
+Recent Business Signal Score,Existing recent-signal component score,Numeric score,No historical trend data available
+Decision-Maker Score,Existing decision-maker component score,Numeric score,Existing score; document its derivation
+Data Quality Status,Indicates record quality-review status,Quality flag,Use for filtering or audit; avoid as a predictive signal without justification
+Employee Validation,Indicates employee-data validation status,Quality flag,Use for review and audit
+Company Age (Years),Company age in years as of 2026-08-22,Derived numeric,Calculated as 2026 minus Founded Year (Standardized); reference date fixed at 2026-08-22
+Company Age Validation,Flags missing or implausible founding years,Validation flag,Checks missing years and years before 1800 or after 2026; all 180 current records passed

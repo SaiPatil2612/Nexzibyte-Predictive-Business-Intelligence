@@ -1,0 +1,46 @@
+Demo_Rank,Source_Row_Index,Company Name,Industry / Sub-industry,Target Customers / B2B or B2C,Founded Year (Standardized),Employee Count (Numeric),Company Age (Years),Synthetic_Demo_Target,Demo_Probability,Demo_Prediction_At_0_50,Data_Status,Demo_Priority_Band,Business_Approval_Status
+1,8,PhonePe,FinTech / Payments,B2B & B2C / consumers and merchants,2015,5000,11,0,0.471978491,0,SYNTHETIC DEMONSTRATION ONLY,High (demo),NOT APPROVED FOR BUSINESS USE
+2,6,Razorpay,FinTech / Payments,B2B / businesses and enterprises,2014,4000,12,1,0.464950817,0,SYNTHETIC DEMONSTRATION ONLY,High (demo),NOT APPROVED FOR BUSINESS USE
+3,98,Fractal,AI / ML / GenAI,"B2B — large enterprises across BFSI, healthcare, retail, CPG and other industries",2000,5000,26,0,0.442583806,0,SYNTHETIC DEMONSTRATION ONLY,High (demo),NOT APPROVED FOR BUSINESS USE
+4,169,OfBusiness,FinTech / Payments,B2B — SMEs and businesses purchasing raw materials and financing,2016,3000,10,1,0.415965419,0,SYNTHETIC DEMONSTRATION ONLY,High (demo),NOT APPROVED FOR BUSINESS USE
+5,146,Juspay,FinTech / Payments,"B2B — merchants, banks, fintechs and large digital businesses",2012,2000,14,0,0.401244499,0,SYNTHETIC DEMONSTRATION ONLY,High (demo),NOT APPROVED FOR BUSINESS USE
+6,154,Fi,FinTech / Payments,B2C — consumers seeking digital banking and money-management services,2019,500,7,0,0.394854547,0,SYNTHETIC DEMONSTRATION ONLY,High (demo),NOT APPROVED FOR BUSINESS USE
+7,162,Lendingkart,FinTech / Payments,B2B — SMEs and small-business owners,2014,1000,12,0,0.371780747,0,SYNTHETIC DEMONSTRATION ONLY,High (demo),NOT APPROVED FOR BUSINESS USE
+8,165,Fibe,FinTech / Payments,B2C — young consumers seeking digital credit,2015,1000,11,0,0.369322591,0,SYNTHETIC DEMONSTRATION ONLY,High (demo),NOT APPROVED FOR BUSINESS USE
+9,160,Yubi,FinTech / Payments,"B2B — banks, NBFCs, fintechs and lending institutions",2020,1500,6,0,0.369035146,0,SYNTHETIC DEMONSTRATION ONLY,High (demo),NOT APPROVED FOR BUSINESS USE
+10,105,Affle,AI / ML / GenAI,"B2B — advertisers, brands, app developers and marketers",2005,2500,21,1,0.367943741,0,SYNTHETIC DEMONSTRATION ONLY,High (demo),NOT APPROVED FOR BUSINESS USE
+11,153,Slice,FinTech / Payments,B2C — consumers and young digital-finance users,2016,1000,10,0,0.36687314,0,SYNTHETIC DEMONSTRATION ONLY,Medium (demo),NOT APPROVED FOR BUSINESS USE
+12,167,Rupeek,FinTech / Payments,B2C + B2B — consumers and businesses seeking secured gold loans,2015,500,11,1,0.357442783,0,SYNTHETIC DEMONSTRATION ONLY,Medium (demo),NOT APPROVED FOR BUSINESS USE
+13,176,Niyo,FinTech / Payments,"B2C — consumers, especially digital banking/travel users",2015,500,11,0,0.357442783,0,SYNTHETIC DEMONSTRATION ONLY,Medium (demo),NOT APPROVED FOR BUSINESS USE
+14,179,Karza Technologies,FinTech / Payments,"B2B — banks, NBFCs, fintechs, insurers and enterprises",2015,500,11,1,0.357442783,0,SYNTHETIC DEMONSTRATION ONLY,Medium (demo),NOT APPROVED FOR BUSINESS USE
+15,133,Rapido,AI / ML / GenAI,B2C + B2B2C — riders/passengers and driver-partners,2015,3000,11,0,0.355450187,0,SYNTHETIC DEMONSTRATION ONLY,Medium (demo),NOT APPROVED FOR BUSINESS USE
+16,148,Open Financial Technologies,FinTech / Payments,"B2B — SMEs, businesses, banks and fintech ecosystem partners",2017,500,9,0,0.352641208,0,SYNTHETIC DEMONSTRATION ONLY,Medium (demo),NOT APPROVED FOR BUSINESS USE
+17,23,Sirion,B2B SaaS / Enterprise Software,B2B — large enterprises and legal/procurement/finance teams,2012,750,14,1,0.335682582,0,SYNTHETIC DEMONSTRATION ONLY,Medium (demo),NOT APPROVED FOR BUSINESS USE
+18,65,upGrad Enterprise,B2B SaaS / Enterprise Software,B2B — enterprises and HR/L&D/workforce transformation teams,2015,1000,11,0,0.334434891,0,SYNTHETIC DEMONSTRATION ONLY,Medium (demo),NOT APPROVED FOR BUSINESS USE
+19,13,LeadSquared,CRM / Sales & Marketing Automation SaaS,B2B / enterprises,2011,3000,15,1,0.332493202,0,SYNTHETIC DEMONSTRATION ONLY,Medium (demo),NOT APPROVED FOR BUSINESS USE
+20,51,Haptik,B2B SaaS / Enterprise Software,"B2B — enterprises, consumer brands, BFSI, retail and customer-service teams",2013,700,13,0,0.332264326,0,SYNTHETIC DEMONSTRATION ONLY,Medium (demo),NOT APPROVED FOR BUSINESS USE
+21,27,FarMart,B2B SaaS / Enterprise Software,"B2B2C — farmers, agri-input/service providers and agricultural buyers",2015,400,11,0,0.321102578,0,SYNTHETIC DEMONSTRATION ONLY,Medium (demo),NOT APPROVED FOR BUSINESS USE
+22,84,SigTuple,B2B SaaS / Enterprise Software,"B2B — hospitals, pathology labs and diagnostic providers",2015,300,11,0,0.318918019,0,SYNTHETIC DEMONSTRATION ONLY,Medium (demo),NOT APPROVED FOR BUSINESS USE
+23,63,Unstop,B2B SaaS / Enterprise Software,B2B2C — employers/recruiters plus students and young professionals,2017,500,9,1,0.318849147,0,SYNTHETIC DEMONSTRATION ONLY,Medium (demo),NOT APPROVED FOR BUSINESS USE
+24,86,Mfine,B2B SaaS / Enterprise Software,"B2C + B2B2C — patients, doctors, hospitals and corporate healthcare customers",2017,500,9,1,0.318849147,0,SYNTHETIC DEMONSTRATION ONLY,Medium (demo),NOT APPROVED FOR BUSINESS USE
+25,40,SurveySparrow,B2B SaaS / Enterprise Software,"B2B — enterprises, CX/EX teams, HR and customer-support organizations",2017,300,9,0,0.314516017,0,SYNTHETIC DEMONSTRATION ONLY,Medium (demo),NOT APPROVED FOR BUSINESS USE
+26,52,Leena AI,B2B SaaS / Enterprise Software,"B2B — enterprises, HR departments and employee-service teams",2018,400,8,1,0.314483221,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+27,85,Niramai,B2B SaaS / Enterprise Software,"B2B/B2G — hospitals, diagnostic centers, screening programs and healthcare providers",2016,150,10,0,0.313472255,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+28,82,Unlearn,B2B SaaS / Enterprise Software,"B2B — pharmaceutical, biotech and clinical-research organizations",2017,200,9,1,0.3123662,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+29,36,Facilio,B2B SaaS / Enterprise Software,"B2B — commercial real estate, facilities, manufacturing and enterprise operations",2017,100,9,0,0.310227667,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+30,37,SpotDraft,B2B SaaS / Enterprise Software,"B2B — legal, sales, procurement and enterprise operations teams",2017,100,9,0,0.310227667,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+31,58,Unbox Robotics,B2B SaaS / Enterprise Software,"B2B — warehouses, e-commerce, logistics and parcel-sorting operations",2019,300,7,0,0.310165166,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+32,132,Ultraviolette Automotive,AI / ML / GenAI,B2C — premium EV motorcycle consumers,2016,1000,10,0,0.307581527,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+33,11,Whatfix,B2B SaaS / Digital Adoption,B2B / global enterprises,2014,900,12,1,0.305685613,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+34,103,Gramener,AI / ML / GenAI,"B2B — enterprises, data teams and business users",2010,200,16,1,0.303492814,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+35,18,Druva,Cloud Data Protection / Cybersecurity,B2B / enterprises,2008,1000,18,1,0.2964895,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+36,113,Niki.ai,AI / ML / GenAI,B2C + B2B2C — consumers and businesses offering digital services,2015,100,11,0,0.290594972,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+37,127,Ati Robotics,AI / ML / GenAI,B2B — industrial and warehouse automation customers,2017,100,9,0,0.2863871,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+38,138,Pixxel,AI / ML / GenAI,"B2B/B2G — governments, enterprises, agriculture, climate and defense/space customers",2019,300,7,1,0.286321963,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+39,4,CleverTap,Customer Engagement SaaS / MarTech,B2B / consumer brands and enterprises,2013,750,13,0,0.28576804,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+40,95,Neysa,AI / ML / GenAI,"B2B — AI companies, enterprises, developers and organizations needing GPU/cloud infrastructure",2023,500,3,0,0.282110144,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+41,119,Pep,AI / ML / GenAI,B2B — businesses and enterprise customers,2020,100,6,0,0.280175938,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+42,140,GalaxEye,AI / ML / GenAI,"B2B/B2G — governments, defense, agriculture, infrastructure and geospatial customers",2020,100,6,0,0.280175938,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+43,120,TrueFan,AI / ML / GenAI,B2C + B2B — fans/consumers and brands,2021,100,5,0,0.27813271,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+44,94,Ema,AI / ML / GenAI,B2B — enterprises and knowledge-work teams,2023,100,3,0,0.274087412,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE
+45,109,BharatGPT,AI / ML / GenAI,"B2B/B2G — enterprises, developers and government organizations",2023,100,3,1,0.256284484,0,SYNTHETIC DEMONSTRATION ONLY,Low (demo),NOT APPROVED FOR BUSINESS USE

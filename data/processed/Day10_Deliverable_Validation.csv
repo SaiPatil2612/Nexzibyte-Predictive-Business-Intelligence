@@ -1,0 +1,9 @@
+Deliverable,Path,Exists,Size_Bytes,Validation_Status
+Day10_Customer_Data_Readiness_Audit.csv,D:\Nexzibyte Solution\nexzibyte-predictive-bi\data\processed\Day10_Customer_Data_Readiness_Audit.csv,True,1150,PASS
+Day10_Customer_Target_Definitions.csv,D:\Nexzibyte Solution\nexzibyte-predictive-bi\data\processed\Day10_Customer_Target_Definitions.csv,True,700,PASS
+Day10_Customer_Feature_Dictionary.csv,D:\Nexzibyte Solution\nexzibyte-predictive-bi\data\processed\Day10_Customer_Feature_Dictionary.csv,True,588,PASS
+Day10_Customer_360.csv,D:\Nexzibyte Solution\nexzibyte-predictive-bi\data\processed\Day10_Customer_360.csv,True,41459,PASS
+Day10_Customer_Segments.csv,D:\Nexzibyte Solution\nexzibyte-predictive-bi\data\processed\Day10_Customer_Segments.csv,True,81582,PASS
+Day10_Expansion_Candidates.csv,D:\Nexzibyte Solution\nexzibyte-predictive-bi\data\processed\Day10_Expansion_Candidates.csv,True,924,PASS
+Day10_Churn_Model_Feasibility_Audit.csv,D:\Nexzibyte Solution\nexzibyte-predictive-bi\data\processed\Day10_Churn_Model_Feasibility_Audit.csv,True,889,PASS
+Day10_CLV_Feasibility_Assessment.csv,D:\Nexzibyte Solution\nexzibyte-predictive-bi\data\processed\Day10_CLV_Feasibility_Assessment.csv,True,1092,PASS

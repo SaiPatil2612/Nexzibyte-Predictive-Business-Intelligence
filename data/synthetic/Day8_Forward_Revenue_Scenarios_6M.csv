@@ -1,0 +1,19 @@
+Month,Horizon_Months,Step_Ahead,Scenario,Forecast_Revenue,Data_Status,Assumption
+2026-01-01,6,1,Base,788869.17,Synthetic demonstration only,Revenue remains at the latest observed level
+2026-01-01,6,1,Best-case,869426.61,Synthetic demonstration only,Illustrative upside scenario based on historical variation
+2026-01-01,6,1,Worst-case,708311.73,Synthetic demonstration only,Illustrative downside scenario based on historical variation
+2026-02-01,6,2,Base,788869.17,Synthetic demonstration only,Revenue remains at the latest observed level
+2026-02-01,6,2,Best-case,902794.59,Synthetic demonstration only,Illustrative upside scenario based on historical variation
+2026-02-01,6,2,Worst-case,674943.75,Synthetic demonstration only,Illustrative downside scenario based on historical variation
+2026-03-01,6,3,Base,788869.17,Synthetic demonstration only,Revenue remains at the latest observed level
+2026-03-01,6,3,Best-case,928398.75,Synthetic demonstration only,Illustrative upside scenario based on historical variation
+2026-03-01,6,3,Worst-case,649339.59,Synthetic demonstration only,Illustrative downside scenario based on historical variation
+2026-04-01,6,4,Base,788869.17,Synthetic demonstration only,Revenue remains at the latest observed level
+2026-04-01,6,4,Best-case,949984.05,Synthetic demonstration only,Illustrative upside scenario based on historical variation
+2026-04-01,6,4,Worst-case,627754.29,Synthetic demonstration only,Illustrative downside scenario based on historical variation
+2026-05-01,6,5,Base,788869.17,Synthetic demonstration only,Revenue remains at the latest observed level
+2026-05-01,6,5,Best-case,969001.08,Synthetic demonstration only,Illustrative upside scenario based on historical variation
+2026-05-01,6,5,Worst-case,608737.26,Synthetic demonstration only,Illustrative downside scenario based on historical variation
+2026-06-01,6,6,Base,788869.17,Synthetic demonstration only,Revenue remains at the latest observed level
+2026-06-01,6,6,Best-case,986193.79,Synthetic demonstration only,Illustrative upside scenario based on historical variation
+2026-06-01,6,6,Worst-case,591544.55,Synthetic demonstration only,Illustrative downside scenario based on historical variation

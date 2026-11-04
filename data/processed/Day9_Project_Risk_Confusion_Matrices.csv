@@ -1,0 +1,7 @@
+Target,Model,TN,FP,FN,TP
+Project_Delayed,Logistic Regression,5,0,13,42
+Project_Delayed,Random Forest,4,1,10,45
+Effort_Overrun,Logistic Regression,26,7,5,22
+Effort_Overrun,Random Forest,25,8,6,21
+Low_Margin_Risk,Logistic Regression,17,31,5,7
+Low_Margin_Risk,Random Forest,28,20,8,4

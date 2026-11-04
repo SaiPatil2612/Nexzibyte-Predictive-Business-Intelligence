@@ -1,0 +1,16 @@
+Field,Definition,Category
+Project_ID,Project identifier,Project
+Target_End_Date,Planned completion date,Schedule
+Actual_End_Date,Actual completion date,Schedule
+Planned_Effort,Budgeted delivery hours,Effort
+Actual_Effort,Consumed delivery hours,Effort
+Milestones_Planned,Milestones scheduled by the cutoff,Delivery
+Milestones_Completed,Milestones completed by the cutoff,Delivery
+Change_Request_Count,Approved or logged scope changes,Scope
+Dependency_Delay_Days,Delay caused by dependencies,Dependencies
+Client_Delay_Days,Delay attributable to client dependencies,Client
+Resource_Utilization,Resource utilization at the cutoff,Resources
+Project_Revenue,Approved project revenue,Finance
+Forecast_Delivery_Cost,Estimated total delivery cost,Finance
+Actual_Delivery_Cost,Recorded delivery cost,Finance
+Data_Cutoff_Date,Date when prediction features were observed,Governance

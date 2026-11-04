@@ -1,0 +1,2 @@
+Total_Months,Revenue_Amount_IQR_Flags,Month_Change_IQR_Flags,Months_With_Any_Anomaly,Months_Without_Anomaly,Synthetic_Records,Revenue_Lower_Fence,Revenue_Upper_Fence,Change_Lower_Fence_Pct,Change_Upper_Fence_Pct,Data_Status
+36,0,1,1,35,36,361704.5,898707.62,-13.4,16.36,Synthetic demonstration data; not actual NexziByte financial results

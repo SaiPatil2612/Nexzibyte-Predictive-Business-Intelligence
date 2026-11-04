@@ -1,0 +1,26 @@
+Source Field,Proposed Database Column,Proposed PostgreSQL Type,Meaning,Rules and Limitations
+Company Name,company_name,TEXT,Company's displayed name,Required; unique in current snapshot
+Website / Domain,website_domain,TEXT,Company website or domain,Required; distinct in current snapshot
+Industry / Sub-industry,industry_subindustry,TEXT,Industry classification,Standardization may be needed
+"HQ Location (City, State)",hq_location,TEXT,Reported headquarters/location text,May contain multiple locations
+Founded Year (Standardized),founded_year,SMALLINT,Reported founding year,Validate plausible range
+Products/Services,products_services,TEXT,Products and services description,Descriptive text; may contain multiple values
+Target Customers / B2B or B2C,target_customer_segment,TEXT,Target customer type/segment,Standardize categories where appropriate
+Technology Signals,technology_signals,TEXT,Observed technology-related signals,Record source evidence
+Recent Business Signal,recent_business_signal,TEXT,Reported business development signal,Confirm event date and source
+Decision-Maker (Name + Title),decision_maker_text,TEXT,Reported decision-maker name/title,May need a separate contact table
+Source(s) Used,source_text,TEXT,Sources used for company information,Preserve provenance
+Date Verified,date_verified,DATE,Date recorded as verified,All rows currently share one date
+Employee Count (Numeric),employee_count,INTEGER,Reported numeric employee count,Four records need employee validation review
+Website Validation,website_validation_status,TEXT,Website validation result,Constrain allowed values after review
+Employee Validation,employee_validation_status,TEXT,Employee count validation result,Retain review status where applicable
+Duplicate Flag,duplicate_flag,TEXT,Source duplicate indicator,Unique in current snapshot
+Data Quality Status,data_quality_status,TEXT,Overall source quality status,176 Valid; 4 Needs Review
+Company Size Score,company_size_score,SMALLINT,Company size scoring component,Confirm scoring scale
+B2B Fit Score,b2b_fit_score,SMALLINT,B2B suitability scoring component,Confirm scoring scale
+Technology Signal Score,technology_signal_score,SMALLINT,Technology signal scoring component,Confirm scoring scale
+Business Need Score,business_need_score,SMALLINT,Business need scoring component,Confirm scoring scale
+Recent Business Signal Score,recent_business_signal_score,SMALLINT,Recent business signal scoring component,Confirm scoring scale
+Decision-Maker Score,decision_maker_score,SMALLINT,Decision-maker scoring component,Confirm scoring scale
+Prospect Score,prospect_score,SMALLINT,Sum of six component scores,Matches component sum for all 180 records
+Prospect Classification,prospect_classification,TEXT,Existing prospect category,129 High Potential; 51 Medium Potential

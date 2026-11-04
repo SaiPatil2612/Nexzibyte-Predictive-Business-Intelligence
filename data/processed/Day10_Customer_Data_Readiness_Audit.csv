@@ -1,0 +1,6 @@
+File,Dataset_Type,File_Exists,Rows,Columns,Customer_Relevant_Columns,Data_Status
+data/raw/NexziByte_Final_Scored.csv,Raw prospect dataset,True,180,25,"Company Name, Industry / Sub-industry, Products/Services, Target Customers / B2B or B2C, Data Quality Status, Company Size Score",Existing dataset; customer and transaction validity requires verification
+data/clean/Day3_Prospects_Clean.csv,Clean prospect dataset,True,180,28,"Company Name, Industry / Sub-industry, Products/Services, Target Customers / B2B or B2C, Data Quality Status, Company Size Score, ETL Company Name Unique",Existing dataset; customer and transaction validity requires verification
+data/synthetic/Day7_Synthetic_Quotation_Dataset.csv,Synthetic quotation dataset,True,300,12,"Quote_ID, Company_ID, Quote_Date, Quote_Value, Quote_Status, Accepted_Date",Synthetic demonstration only
+data/synthetic/Day8_Synthetic_Monthly_Revenue.csv,Synthetic monthly revenue dataset,True,36,4,Revenue,Synthetic demonstration only
+data/synthetic/Day9_Synthetic_Project_Risk_Dataset.csv,Synthetic project dataset,True,300,25,"Client_Delay_Days, Project_Revenue",Synthetic demonstration only

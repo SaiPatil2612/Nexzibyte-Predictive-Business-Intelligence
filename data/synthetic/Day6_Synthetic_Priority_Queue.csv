@@ -1,0 +1,46 @@
+Source_Row_Index,Industry / Sub-industry,Target Customers / B2B or B2C,Founded Year (Standardized),Employee Count (Numeric),Company Age (Years),Synthetic_Actual_Label,Synthetic_Predicted_Label,Synthetic_Predicted_Probability,Data Status,Demonstration Priority,Demonstration Priority Band
+6,FinTech / Payments,B2B / businesses and enterprises,2014,4000,12,1,1,0.6058602115279693,SYNTHETIC DEMONSTRATION ONLY,1,High - Demo Only
+8,FinTech / Payments,B2B & B2C / consumers and merchants,2015,5000,11,0,1,0.5792496393449266,SYNTHETIC DEMONSTRATION ONLY,2,High - Demo Only
+98,AI / ML / GenAI,"B2B — large enterprises across BFSI, healthcare, retail, CPG and other industries",2000,5000,26,0,1,0.5359291226361654,SYNTHETIC DEMONSTRATION ONLY,3,High - Demo Only
+169,FinTech / Payments,B2B — SMEs and businesses purchasing raw materials and financing,2016,3000,10,1,0,0.4554347533079905,SYNTHETIC DEMONSTRATION ONLY,4,High - Demo Only
+154,FinTech / Payments,B2C — consumers seeking digital banking and money-management services,2019,500,7,0,0,0.4304137562671743,SYNTHETIC DEMONSTRATION ONLY,5,High - Demo Only
+146,FinTech / Payments,"B2B — merchants, banks, fintechs and large digital businesses",2012,2000,14,0,0,0.41641457377110164,SYNTHETIC DEMONSTRATION ONLY,6,High - Demo Only
+105,AI / ML / GenAI,"B2B — advertisers, brands, app developers and marketers",2005,2500,21,1,0,0.36921385377438776,SYNTHETIC DEMONSTRATION ONLY,7,High - Demo Only
+160,FinTech / Payments,"B2B — banks, NBFCs, fintechs and lending institutions",2020,1500,6,0,0,0.3531298081631524,SYNTHETIC DEMONSTRATION ONLY,8,High - Demo Only
+133,AI / ML / GenAI,B2C + B2B2C — riders/passengers and driver-partners,2015,3000,11,0,0,0.35275881667025516,SYNTHETIC DEMONSTRATION ONLY,9,High - Demo Only
+162,FinTech / Payments,B2B — SMEs and small-business owners,2014,1000,12,0,0,0.3522116600400971,SYNTHETIC DEMONSTRATION ONLY,10,High - Demo Only
+165,FinTech / Payments,B2C — young consumers seeking digital credit,2015,1000,11,0,0,0.347924911546562,SYNTHETIC DEMONSTRATION ONLY,11,Medium - Demo Only
+153,FinTech / Payments,B2C — consumers and young digital-finance users,2016,1000,10,0,0,0.343662657759983,SYNTHETIC DEMONSTRATION ONLY,12,Medium - Demo Only
+65,B2B SaaS / Enterprise Software,B2B — enterprises and HR/L&D/workforce transformation teams,2015,1000,11,0,0,0.33979870945583046,SYNTHETIC DEMONSTRATION ONLY,13,Medium - Demo Only
+23,B2B SaaS / Enterprise Software,B2B — large enterprises and legal/procurement/finance teams,2012,750,14,1,0,0.33934774081914093,SYNTHETIC DEMONSTRATION ONLY,14,Medium - Demo Only
+51,B2B SaaS / Enterprise Software,"B2B — enterprises, consumer brands, BFSI, retail and customer-service teams",2013,700,13,0,0,0.3325330636702759,SYNTHETIC DEMONSTRATION ONLY,15,Medium - Demo Only
+13,CRM / Sales & Marketing Automation SaaS,B2B / enterprises,2011,3000,15,1,0,0.3228850491117279,SYNTHETIC DEMONSTRATION ONLY,16,Medium - Demo Only
+167,FinTech / Payments,B2C + B2B — consumers and businesses seeking secured gold loans,2015,500,11,1,0,0.32185875244066897,SYNTHETIC DEMONSTRATION ONLY,17,Medium - Demo Only
+179,FinTech / Payments,"B2B — banks, NBFCs, fintechs, insurers and enterprises",2015,500,11,1,0,0.32185875244066897,SYNTHETIC DEMONSTRATION ONLY,18,Medium - Demo Only
+176,FinTech / Payments,"B2C — consumers, especially digital banking/travel users",2015,500,11,0,0,0.32185875244066897,SYNTHETIC DEMONSTRATION ONLY,19,Medium - Demo Only
+148,FinTech / Payments,"B2B — SMEs, businesses, banks and fintech ecosystem partners",2017,500,9,0,0,0.3136897238743603,SYNTHETIC DEMONSTRATION ONLY,20,Medium - Demo Only
+27,B2B SaaS / Enterprise Software,"B2B2C — farmers, agri-input/service providers and agricultural buyers",2015,400,11,0,0,0.30902636240383946,SYNTHETIC DEMONSTRATION ONLY,21,Medium - Demo Only
+63,B2B SaaS / Enterprise Software,B2B2C — employers/recruiters plus students and young professionals,2017,500,9,1,0,0.3059879094052326,SYNTHETIC DEMONSTRATION ONLY,22,Medium - Demo Only
+86,B2B SaaS / Enterprise Software,"B2C + B2B2C — patients, doctors, hospitals and corporate healthcare customers",2017,500,9,1,0,0.3059879094052326,SYNTHETIC DEMONSTRATION ONLY,23,Medium - Demo Only
+84,B2B SaaS / Enterprise Software,"B2B — hospitals, pathology labs and diagnostic providers",2015,300,11,0,0,0.30404928482570875,SYNTHETIC DEMONSTRATION ONLY,24,Medium - Demo Only
+52,B2B SaaS / Enterprise Software,"B2B — enterprises, HR departments and employee-service teams",2018,400,8,1,0,0.2970888849549809,SYNTHETIC DEMONSTRATION ONLY,25,Medium - Demo Only
+40,B2B SaaS / Enterprise Software,"B2B — enterprises, CX/EX teams, HR and customer-support organizations",2017,300,9,0,0,0.29613488443858293,SYNTHETIC DEMONSTRATION ONLY,26,Low - Demo Only
+85,B2B SaaS / Enterprise Software,"B2B/B2G — hospitals, diagnostic centers, screening programs and healthcare providers",2016,150,10,0,0,0.29275287991928955,SYNTHETIC DEMONSTRATION ONLY,27,Low - Demo Only
+82,B2B SaaS / Enterprise Software,"B2B — pharmaceutical, biotech and clinical-research organizations",2017,200,9,1,0,0.2912779086891897,SYNTHETIC DEMONSTRATION ONLY,28,Low - Demo Only
+58,B2B SaaS / Enterprise Software,"B2B — warehouses, e-commerce, logistics and parcel-sorting operations",2019,300,7,0,0,0.2883411425558314,SYNTHETIC DEMONSTRATION ONLY,29,Low - Demo Only
+36,B2B SaaS / Enterprise Software,"B2B — commercial real estate, facilities, manufacturing and enterprise operations",2017,100,9,0,0,0.28646817209508446,SYNTHETIC DEMONSTRATION ONLY,30,Low - Demo Only
+37,B2B SaaS / Enterprise Software,"B2B — legal, sales, procurement and enterprise operations teams",2017,100,9,0,0,0.28646817209508446,SYNTHETIC DEMONSTRATION ONLY,31,Low - Demo Only
+11,B2B SaaS / Digital Adoption,B2B / global enterprises,2014,900,12,1,0,0.26256284892305637,SYNTHETIC DEMONSTRATION ONLY,32,Low - Demo Only
+132,AI / ML / GenAI,B2C — premium EV motorcycle consumers,2016,1000,10,0,0,0.250855500119911,SYNTHETIC DEMONSTRATION ONLY,33,Low - Demo Only
+18,Cloud Data Protection / Cybersecurity,B2B / enterprises,2008,1000,18,1,0,0.24006927450460006,SYNTHETIC DEMONSTRATION ONLY,34,Low - Demo Only
+103,AI / ML / GenAI,"B2B — enterprises, data teams and business users",2010,200,16,1,0,0.23715906647068868,SYNTHETIC DEMONSTRATION ONLY,35,Low - Demo Only
+4,Customer Engagement SaaS / MarTech,B2B / consumer brands and enterprises,2013,750,13,0,0,0.22464491807419837,SYNTHETIC DEMONSTRATION ONLY,36,Low - Demo Only
+113,AI / ML / GenAI,B2C + B2B2C — consumers and businesses offering digital services,2015,100,11,0,0,0.21654095988983343,SYNTHETIC DEMONSTRATION ONLY,37,Low - Demo Only
+138,AI / ML / GenAI,"B2B/B2G — governments, enterprises, agriculture, climate and defense/space customers",2019,300,7,1,0,0.21173873118447337,SYNTHETIC DEMONSTRATION ONLY,38,Low - Demo Only
+127,AI / ML / GenAI,B2B — industrial and warehouse automation customers,2017,100,9,0,0,0.21021636404777036,SYNTHETIC DEMONSTRATION ONLY,39,Low - Demo Only
+95,AI / ML / GenAI,"B2B — AI companies, enterprises, developers and organizations needing GPU/cloud infrastructure",2023,500,3,0,0,0.2070148610637944,SYNTHETIC DEMONSTRATION ONLY,40,Low - Demo Only
+119,AI / ML / GenAI,B2B — businesses and enterprise customers,2020,100,6,0,0,0.200985597846022,SYNTHETIC DEMONSTRATION ONLY,41,Low - Demo Only
+140,AI / ML / GenAI,"B2B/B2G — governments, defense, agriculture, infrastructure and geospatial customers",2020,100,6,0,0,0.200985597846022,SYNTHETIC DEMONSTRATION ONLY,42,Low - Demo Only
+120,AI / ML / GenAI,B2C + B2B — fans/consumers and brands,2021,100,5,0,0,0.19797690065605295,SYNTHETIC DEMONSTRATION ONLY,43,Low - Demo Only
+94,AI / ML / GenAI,B2B — enterprises and knowledge-work teams,2023,100,3,0,0,0.1920615926293182,SYNTHETIC DEMONSTRATION ONLY,44,Low - Demo Only
+109,AI / ML / GenAI,"B2B/B2G — enterprises, developers and government organizations",2023,100,3,1,0,0.16722666717345205,SYNTHETIC DEMONSTRATION ONLY,45,Low - Demo Only

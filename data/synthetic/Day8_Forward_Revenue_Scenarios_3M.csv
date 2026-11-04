@@ -1,0 +1,10 @@
+Month,Horizon_Months,Step_Ahead,Scenario,Forecast_Revenue,Data_Status,Assumption
+2026-01-01,3,1,Base,788869.17,Synthetic demonstration only,Revenue remains at the latest observed level
+2026-01-01,3,1,Best-case,869426.61,Synthetic demonstration only,Illustrative upside scenario based on historical variation
+2026-01-01,3,1,Worst-case,708311.73,Synthetic demonstration only,Illustrative downside scenario based on historical variation
+2026-02-01,3,2,Base,788869.17,Synthetic demonstration only,Revenue remains at the latest observed level
+2026-02-01,3,2,Best-case,902794.59,Synthetic demonstration only,Illustrative upside scenario based on historical variation
+2026-02-01,3,2,Worst-case,674943.75,Synthetic demonstration only,Illustrative downside scenario based on historical variation
+2026-03-01,3,3,Base,788869.17,Synthetic demonstration only,Revenue remains at the latest observed level
+2026-03-01,3,3,Best-case,928398.75,Synthetic demonstration only,Illustrative upside scenario based on historical variation
+2026-03-01,3,3,Worst-case,649339.59,Synthetic demonstration only,Illustrative downside scenario based on historical variation
